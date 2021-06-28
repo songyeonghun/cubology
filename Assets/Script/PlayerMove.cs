@@ -4,14 +4,10 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    GameObject Spawn,Finish,Player;
     // Start is called before the first frame update
     void Start()
     {
         DontDestroyOnLoad(this);
-        Spawn = GameObject.Find("Spawn");
-        Finish = GameObject.Find("Finish");
-        Player= GameObject.Find("Player");
     }
 
     void Update()
@@ -37,12 +33,6 @@ public class PlayerMove : MonoBehaviour
     void FixedUpdate()
     {
         
-    }
-
-
-    void PlayerSpawn()
-    {
-       
     }
 
 }
