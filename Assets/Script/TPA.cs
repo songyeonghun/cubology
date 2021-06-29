@@ -21,6 +21,7 @@ public class TPA : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        //플레이어와 닿으면 TPB로 이동
         if (collision.gameObject.tag == "Player")
         {
             Player.transform.position = TeleportB.transform.position;

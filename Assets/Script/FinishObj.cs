@@ -6,8 +6,7 @@ using UnityEngine.SceneManagement;
 public class FinishObj : MonoBehaviour
 {
     GameObject Spawn,Finish, Player;
-    bool finishtrue = false;
-
+    public string nextstage;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,7 +28,7 @@ public class FinishObj : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Debug.Log("nextStage");
-            SceneManager.LoadScene("Stage2");
+            SceneManager.LoadScene(nextstage);
         }
     }
 
