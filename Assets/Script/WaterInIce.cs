@@ -21,7 +21,7 @@ public class WaterInIce : MonoBehaviour
     {
 
         //물과 냉기가 만나면 냉기가 사라지고얼음 생성
-        if (collision.gameObject.tag == "iceGas")
+        if (collision.gameObject.tag == "IceGas")
         {
             Destroy(this.gameObject);
             Instantiate(ice,transform.position, Quaternion.identity);

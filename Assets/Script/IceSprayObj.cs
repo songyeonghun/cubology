@@ -53,7 +53,7 @@ public class IceSprayObj : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         //오프일떄 전기와 닿으면
-        if (onoff == 0 && collision.gameObject.tag == "spark")
+        if (onoff == 0 && collision.gameObject.tag == "Spark")
         {
             onoff = 1;
         }

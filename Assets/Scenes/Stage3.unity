@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3467372012076483080, guid: 5a23de2342762034f86e479148f7b6fc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 7326298595748553144, guid: 5a23de2342762034f86e479148f7b6fc, type: 3}
       propertyPath: m_Name
       value: Cannon L3
@@ -195,11 +199,10 @@ GameObject:
   - component: {fileID: 375033477}
   - component: {fileID: 375033481}
   - component: {fileID: 375033480}
-  - component: {fileID: 375033478}
   - component: {fileID: 375033479}
   m_Layer: 0
   m_Name: Tilemap
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -218,27 +221,6 @@ Transform:
   m_Father: {fileID: 427728673}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &375033478
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 375033476}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
 --- !u!19719996 &375033479
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -2284,6 +2266,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3467372012076483080, guid: 5a23de2342762034f86e479148f7b6fc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7326298595748553144, guid: 5a23de2342762034f86e479148f7b6fc, type: 3}
       propertyPath: m_Name
       value: Cannon U1
@@ -2406,6 +2392,10 @@ PrefabInstance:
     - target: {fileID: 2996046405020508197, guid: 5a23de2342762034f86e479148f7b6fc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3467372012076483080, guid: 5a23de2342762034f86e479148f7b6fc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7326298595748553144, guid: 5a23de2342762034f86e479148f7b6fc, type: 3}
       propertyPath: m_Name
@@ -2643,6 +2633,10 @@ PrefabInstance:
     - target: {fileID: 2996046405020508197, guid: 5a23de2342762034f86e479148f7b6fc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3467372012076483080, guid: 5a23de2342762034f86e479148f7b6fc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7326298595748553144, guid: 5a23de2342762034f86e479148f7b6fc, type: 3}
       propertyPath: m_Name

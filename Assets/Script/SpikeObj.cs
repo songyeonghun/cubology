@@ -28,7 +28,7 @@ public class SpikeObj : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         //전기와 닿으면 가시를 ON
-        if (onoff == 0 && collision.gameObject.tag == "spark")
+        if (onoff == 0 && collision.gameObject.tag == "Spark")
         {
             spike.SetActive(true);
             onoff = 1;

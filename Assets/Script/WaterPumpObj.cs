@@ -57,7 +57,7 @@ public class WaterPumpObj : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         //오프상태일때 전기와닿으면
-        if (onoff==0&&collision.gameObject.tag == "spark")
+        if (onoff==0&&collision.gameObject.tag == "Spark")
         {
             onoff = 1;
         }

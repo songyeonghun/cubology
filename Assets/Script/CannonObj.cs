@@ -27,7 +27,7 @@ public class CannonObj : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (onoff==0&&collision.gameObject.tag=="spark")
+        if (onoff==0&&collision.gameObject.tag=="Spark")
         {
             onoff = 1;
         }
