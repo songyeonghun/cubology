@@ -4,16 +4,18 @@ using UnityEngine;
 
 public class BollShot : MonoBehaviour
 {
-    public int way=0,speed;
+    int way=0;
+    int speed = 10;
     // Start is called before the first frame update
     void Start()
     {
-        
+        way = CannonObj.way;
     }
 
     // Update is called once per frame
     void Update()
     {
+
         //설정한 방향으로 볼 발사
         switch (way)
         {

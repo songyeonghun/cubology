@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CannonObj : MonoBehaviour
 {
+    public static int way = 0;
     public int onoff=0;
     public GameObject boll;
     public Transform bollSpawn;
@@ -11,12 +12,12 @@ public class CannonObj : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
     void Update()
     {
+ 
         //0²¨Áü 1ÄÑÁü 2´ë±â
         if (onoff == 1)
         {

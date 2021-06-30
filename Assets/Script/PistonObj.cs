@@ -28,11 +28,5 @@ public class PistonObj : MonoBehaviour
             onoff++;
         }
     }
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Spark")
-        {
-            //onoff++;
-        }
-    }
+
 }

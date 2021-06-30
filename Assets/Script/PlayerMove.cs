@@ -6,9 +6,12 @@ public class PlayerMove : MonoBehaviour
 {
     public Vector3 goback;
     bool canMove = true;
-    // Start is called before the first frame update
+    GameObject Player, reset;
+    
     void Start()
     {
+        Player = GameObject.Find("Player");
+        reset = GameObject.Find("Spawn");
         DontDestroyOnLoad(this);
     }
 
@@ -48,6 +51,10 @@ public class PlayerMove : MonoBehaviour
         {
             canMove = false;
             StartCoroutine(nowStun());
+        }
+        else if (collision.gameObject.tag == "Enemy")
+        {
+            Player.transform.position = reset.transform.position;
         }
     }
     IEnumerator nowStun()
