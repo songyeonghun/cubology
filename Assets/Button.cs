@@ -9,8 +9,7 @@ public class Button : MonoBehaviour
 
     private void Start()
     {
-        Buttonspark.SetActive(false);
-        Buttonspark2.SetActive(false);
+
     }
 
     private void OnTriggerStay2D(Collider2D collision)
