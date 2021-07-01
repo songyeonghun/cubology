@@ -30,7 +30,7 @@ public class FireBulletObj : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag=="Wall")
+        if(collision.gameObject.tag=="Wal")
         Destroy(gameObject);
        
     }
