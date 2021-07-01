@@ -10,7 +10,7 @@ public class PlayerMove : MonoBehaviour
     
     void Start()
     {
-        reset = GameObject.Find("Spawn");
+
         DontDestroyOnLoad(this);
     }
 
@@ -53,6 +53,7 @@ public class PlayerMove : MonoBehaviour
         }
         else if (collision.gameObject.tag == "Enemy"|| collision.gameObject.tag == "Fire")
         {
+            reset = GameObject.Find("Spawn");
             transform.position = reset.transform.position;
         }
     }
