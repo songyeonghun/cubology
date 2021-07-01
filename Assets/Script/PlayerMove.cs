@@ -6,11 +6,10 @@ public class PlayerMove : MonoBehaviour
 {
     public Vector3 goback;
     bool canMove = true;
-    GameObject Player, reset;
+    GameObject reset;
     
     void Start()
     {
-        Player = GameObject.Find("Player");
         reset = GameObject.Find("Spawn");
         DontDestroyOnLoad(this);
     }
@@ -52,9 +51,9 @@ public class PlayerMove : MonoBehaviour
             canMove = false;
             StartCoroutine(nowStun());
         }
-        else if (collision.gameObject.tag == "Enemy")
+        else if (collision.gameObject.tag == "Enemy"|| collision.gameObject.tag == "Fire")
         {
-            Player.transform.position = reset.transform.position;
+            transform.position = reset.transform.position;
         }
     }
     IEnumerator nowStun()

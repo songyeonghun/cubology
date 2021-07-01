@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8485968007436526720}
   - component: {fileID: 8485968007436526727}
   - component: {fileID: 8485968007436526724}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f0c70ff3ae4cc74d8ea09de1feb5168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goback: {x: 0, y: 0, z: 0}
 --- !u!61 &8485968007436526727
 BoxCollider2D:
   m_ObjectHideFlags: 0

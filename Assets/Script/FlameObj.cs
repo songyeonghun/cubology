@@ -15,11 +15,7 @@ public class FlameObj : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (onoff % 2 == 0)
-        {
-            fire.SetActive(false);
-        }
-        else fire.SetActive(true);
+       
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -28,5 +24,10 @@ public class FlameObj : MonoBehaviour
         {
             onoff++;
         }
+        if (onoff % 2 == 0)
+        {
+            fire.SetActive(false);
+        }
+        else fire.SetActive(true);
     }
 }

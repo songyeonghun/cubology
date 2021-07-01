@@ -12,7 +12,7 @@ public class Button : MonoBehaviour
 
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         Buttonspark.SetActive(true);
         Buttonspark2.SetActive(true);
