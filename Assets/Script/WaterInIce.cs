@@ -27,7 +27,7 @@ public class WaterInIce : MonoBehaviour
             Instantiate(ice,transform.position, Quaternion.identity);
         }
         //플레이어말고 다른 오브젝트랑 닿으면 생성x
-        else if(collision.gameObject.tag != "Player")
+        else if(collision.gameObject.tag != "Player"&& collision.gameObject.tag != "Spark")
         {
             Destroy(this.gameObject);
         }

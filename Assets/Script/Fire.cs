@@ -18,8 +18,10 @@ public class Fire : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag=="Water"|| collision.gameObject.tag == "Ice")
-        Destroy(this.gameObject);
+        if (collision.gameObject.tag == "Water" || collision.gameObject.tag == "Ice" || collision.gameObject.tag == "Wall")
+        {
+            gameObject.SetActive(false);
+        }
     }
 
 }
