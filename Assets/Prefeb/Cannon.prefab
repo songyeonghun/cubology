@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -1917153919905329720}
   m_Layer: 6
   m_Name: Cannon
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,6 +99,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BulletPrefeb: {fileID: 4661483343927998533, guid: b2702520c57c1654da2983995df8cb45,
     type: 3}
+  delay: 2
+  timer: 0
   onoff: 0
 --- !u!61 &-1917153919905329720
 BoxCollider2D:
