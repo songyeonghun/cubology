@@ -23,7 +23,6 @@ public class SpikeObj : MonoBehaviour
         }
     }
 
-
     //전류와 닿으면 스파이크나옴
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -36,10 +35,19 @@ public class SpikeObj : MonoBehaviour
     }
 
     //스파이크 들어감
-    //private void OnCollisionExit2D(Collision2D collision)
-    //{
-    //    spike.SetActive(false);
-    //    gameObject.tag = "Untagged";
-    //    onoff = 0;
-    //}
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Spark")
+        {
+            StartCoroutine(SpikeOff());
+        }
+    }
+
+    IEnumerator SpikeOff()
+    {
+        yield return new WaitForSeconds(0.2f);
+        spike.SetActive(false);
+        onoff = 0;
+    }
+
 }
