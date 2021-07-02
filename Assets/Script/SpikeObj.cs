@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class SpikeObj : MonoBehaviour
 {
-    public int onoff = 0;
     public GameObject spike;
     // Start is called before the first frame update
     void Start()
@@ -16,21 +15,15 @@ public class SpikeObj : MonoBehaviour
     void Update()
     {
 
-        //온되면 가시를 적판정
-        if (onoff == 1)
-        {
-            gameObject.tag = "Enemy";
-        }
     }
 
     //전류와 닿으면 스파이크나옴
     private void OnCollisionEnter2D(Collision2D collision)
     {
         //전기와 닿으면 가시를 ON
-        if (onoff == 0 && collision.gameObject.tag == "Spark")
+        if (collision.gameObject.tag == "Spark")
         {
             spike.SetActive(true);
-            onoff = 1;
         }
     }
 
@@ -47,7 +40,6 @@ public class SpikeObj : MonoBehaviour
     {
         yield return new WaitForSeconds(0.2f);
         spike.SetActive(false);
-        onoff = 0;
     }
 
 }

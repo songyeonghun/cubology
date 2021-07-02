@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class FlameObj : MonoBehaviour
 {
-    public int onoff = 0;
+    public int onoff;
     public GameObject fire;
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
