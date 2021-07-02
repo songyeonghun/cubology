@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -11,7 +12,6 @@ public class PlayerMove : MonoBehaviour
     void Start()
     {
 
-        DontDestroyOnLoad(this);
     }
 
     void Update()
@@ -53,8 +53,7 @@ public class PlayerMove : MonoBehaviour
         }
         else if (collision.gameObject.tag == "Enemy"|| collision.gameObject.tag == "Fire")
         {
-            reset = GameObject.Find("Spawn");
-            transform.position = reset.transform.position;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
     IEnumerator nowStun()
