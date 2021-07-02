@@ -142,7 +142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4726105442378995714}
   - component: {fileID: 4726105442378995715}
-  - component: {fileID: 7895301554321014884}
+  - component: {fileID: 4726105442378995712}
   - component: {fileID: 1671036963702978416}
   m_Layer: 0
   m_Name: Electric
@@ -218,7 +218,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7895301554321014884
+--- !u!114 &4726105442378995712
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -227,10 +227,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4726105442378995713}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1151881848b6b74429838a0ca6c684cc, type: 3}
+  m_Script: {fileID: 11500000, guid: a5326b3616044164eb1506b539ac786d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spark: {fileID: 4726105441939769279}
+  spk: {fileID: 4726105441939769279}
 --- !u!61 &1671036963702978416
 BoxCollider2D:
   m_ObjectHideFlags: 0
