@@ -128,12 +128,12 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 580993268}
     m_Modifications:
     - target: {fileID: 4427935300191920004, guid: bc6d4a84ff2044e41a495c440e9d9aa1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4427935300191920004, guid: bc6d4a84ff2044e41a495c440e9d9aa1,
         type: 3}
@@ -158,12 +158,12 @@ PrefabInstance:
     - target: {fileID: 4427935300191920004, guid: bc6d4a84ff2044e41a495c440e9d9aa1,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4427935300191920004, guid: bc6d4a84ff2044e41a495c440e9d9aa1,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4427935300191920004, guid: bc6d4a84ff2044e41a495c440e9d9aa1,
         type: 3}
@@ -197,12 +197,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc6d4a84ff2044e41a495c440e9d9aa1, type: 3}
+--- !u!4 &223597890 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4427935300191920004, guid: bc6d4a84ff2044e41a495c440e9d9aa1,
+    type: 3}
+  m_PrefabInstance: {fileID: 223597889}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &461684021
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1931145845}
     m_Modifications:
     - target: {fileID: 9036736014818336554, guid: d5477b5bd8ab6f645be3f703eb203c8e,
         type: 3}
@@ -212,7 +218,7 @@ PrefabInstance:
     - target: {fileID: 9036736014818336559, guid: d5477b5bd8ab6f645be3f703eb203c8e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9036736014818336559, guid: d5477b5bd8ab6f645be3f703eb203c8e,
         type: 3}
@@ -266,6 +272,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5477b5bd8ab6f645be3f703eb203c8e, type: 3}
+--- !u!4 &461684022 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9036736014818336559, guid: d5477b5bd8ab6f645be3f703eb203c8e,
+    type: 3}
+  m_PrefabInstance: {fileID: 461684021}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &580993267
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,8 +308,9 @@ Transform:
   - {fileID: 585941670}
   - {fileID: 2056560455}
   - {fileID: 1926004614}
+  - {fileID: 223597890}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &585941669
 PrefabInstance:
@@ -2730,6 +2743,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1735325341}
+  - {fileID: 461684022}
   - {fileID: 2024968640}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -2749,7 +2763,7 @@ PrefabInstance:
     - target: {fileID: 4351954572503815397, guid: 628098dd122af784eb9bf49757b6cf6e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4351954572503815397, guid: 628098dd122af784eb9bf49757b6cf6e,
         type: 3}
@@ -2814,6 +2828,38 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2024968639}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2024968641 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4351954572503815400, guid: 628098dd122af784eb9bf49757b6cf6e,
+    type: 3}
+  m_PrefabInstance: {fileID: 2024968639}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &2024968642
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024968641}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &2056560454
 PrefabInstance:
   m_ObjectHideFlags: 0
