@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7949168576148702653}
   - component: {fileID: 7949168576148702652}
+  - component: {fileID: -6903198995822876367}
   - component: {fileID: 7949168576148702654}
   m_Layer: 7
   m_Name: Flame
@@ -84,6 +85,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-6903198995822876367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7949168576148702650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ddb84c4c45ad894a851b431d471cd5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onoff: 0
+  fire: {fileID: 7949168576933455490}
 --- !u!61 &7949168576148702654
 BoxCollider2D:
   m_ObjectHideFlags: 0
