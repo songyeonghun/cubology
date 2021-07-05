@@ -14,12 +14,18 @@ public class Button : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Buttonspark.SetActive(true);
-        Buttonspark2.SetActive(true);
+        if (collision.gameObject.tag == "Player")
+        {
+            Buttonspark.SetActive(true);
+            Buttonspark2.SetActive(true);
+        }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        Buttonspark.SetActive(false);
-        Buttonspark2.SetActive(false);
+        if (collision.gameObject.tag == "Player")
+        {
+            Buttonspark.SetActive(false);
+            Buttonspark2.SetActive(false);
+        }
     }
 }
