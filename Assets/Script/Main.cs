@@ -17,13 +17,10 @@ public class Main : MonoBehaviour
     {
         
     }
-    void OnMouseEnter()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            Debug.Log("»Æ¿Œ");
-            SceneManager.LoadScene(scene);
-        }
 
+    private void OnMouseDown()
+    {
+        Debug.Log("click");
+        SceneManager.LoadScene(scene);
     }
 }
