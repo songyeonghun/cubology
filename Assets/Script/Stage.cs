@@ -17,13 +17,9 @@ public class Stage : MonoBehaviour
     {
         
     }
-    void OnMouseEnter()
+    private void OnMouseDown()
     {
-
-        if (Input.GetMouseButtonDown(0))
-        {
-            SceneManager.LoadScene(selectscene);
-        }
-
+        Debug.Log("click");
+        SceneManager.LoadScene(selectscene);
     }
 }

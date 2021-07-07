@@ -17,13 +17,9 @@ public class MenuX : MonoBehaviour
     {
         
     }
-    void OnMouseEnter()
+    private void OnMouseDown()
     {
-
-        if (Input.GetMouseButtonDown(0))
-        {
-            SceneManager.LoadScene(scene);
-        }
-
+        Debug.Log("click");
+        SceneManager.LoadScene(scene);
     }
 }

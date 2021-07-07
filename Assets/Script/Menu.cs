@@ -21,14 +21,14 @@ public class Menu : MonoBehaviour
     {
         menuselectpoint1.SetActive(true);
         menuselectpoint2.SetActive(true);
-
-        if (Input.GetMouseButtonDown(0))
-        {
-            Debug.Log("»Æ¿Œ");
-            SceneManager.LoadScene(Nextscene);
-        }
-
     }
+
+    private void OnMouseDown()
+    {
+        Debug.Log("click");
+        SceneManager.LoadScene(Nextscene);
+    }
+
     void OnMouseExit() 
     {
         menuselectpoint1.SetActive(false);
