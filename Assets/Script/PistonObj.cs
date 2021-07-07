@@ -5,6 +5,7 @@ using UnityEngine;
 public class PistonObj : MonoBehaviour
 {
     public int onoff = 0;
+    float onDelay = 0.2f, timer = 0;
     public GameObject pistonbar;
     // Start is called before the first frame update
     void Start()
@@ -15,17 +16,23 @@ public class PistonObj : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        timer += Time.deltaTime;
         if (onoff % 2 == 0)
         {
             pistonbar.SetActive(false);
-        }else pistonbar.SetActive(true);
+        }
+        else
+        {
+            pistonbar.SetActive(true);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Spark")
+        if (onDelay < timer && collision.gameObject.tag == "Spark")
         {
             onoff++;
+            timer = 0;
         }
     }
 

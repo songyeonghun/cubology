@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 82682124}
   - component: {fileID: 82682123}
   - component: {fileID: 82682122}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tilemap
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -2715,6 +2715,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 804380055}
     m_Modifications:
+    - target: {fileID: -6903198995822876367, guid: 8cf7601dcace2db4d80cf067ec7f0448,
+        type: 3}
+      propertyPath: onoff
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 370200261083002756, guid: 8cf7601dcace2db4d80cf067ec7f0448,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968894497719788637, guid: 8cf7601dcace2db4d80cf067ec7f0448,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7949168576148702650, guid: 8cf7601dcace2db4d80cf067ec7f0448,
         type: 3}
       propertyPath: m_Name
@@ -2729,6 +2744,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7949168576148702653, guid: 8cf7601dcace2db4d80cf067ec7f0448,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7949168576148702653, guid: 8cf7601dcace2db4d80cf067ec7f0448,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7949168576148702653, guid: 8cf7601dcace2db4d80cf067ec7f0448,
         type: 3}
@@ -2794,6 +2819,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.4592
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967949560731232003, guid: 8cf7601dcace2db4d80cf067ec7f0448,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cf7601dcace2db4d80cf067ec7f0448, type: 3}

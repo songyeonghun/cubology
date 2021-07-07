@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 7099250385093637253}
   - component: {fileID: 7099250385093637242}
   - component: {fileID: 7099250385093637243}
-  m_Layer: 6
+  - component: {fileID: 2183318369189706881}
+  m_Layer: 7
   m_Name: Stun
   m_TagString: Stun
   m_Icon: {fileID: 0}
@@ -109,3 +110,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2183318369189706881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7099250385093637240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a09fa3015c5f3224fbb4a9a91fe68e24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -12,7 +12,9 @@ GameObject:
   - component: {fileID: 4726105441939769273}
   - component: {fileID: 4726105441939769272}
   - component: {fileID: 4726105441939769275}
-  m_Layer: 8
+  - component: {fileID: 2009492333263195854}
+  - component: {fileID: 4107725703262268316}
+  m_Layer: 13
   m_Name: Spark
   m_TagString: Spark
   m_Icon: {fileID: 0}
@@ -72,10 +74,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7,
-    type: 3}
-  m_Color: {r: 0.97195566, g: 1, b: 0, a: 1}
+  m_SortingOrder: 9
+  m_Sprite: {fileID: 21300000, guid: 4adaac63addba4048b76bb36e0dce2b2, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -132,6 +133,40 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!111 &2009492333263195854
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4726105441939769279}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 6608bea3e96035547b474849d8152e70, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!95 &4107725703262268316
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4726105441939769279}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 89bd071d6d5ebb44db765a9592628a8f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4726105442378995713
 GameObject:
   m_ObjectHideFlags: 0
@@ -145,7 +180,7 @@ GameObject:
   - component: {fileID: 4726105442378995712}
   - component: {fileID: 1671036963702978416}
   - component: {fileID: -5651809680647312405}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Electric
   m_TagString: Wall
   m_Icon: {fileID: 0}
