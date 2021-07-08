@@ -26,7 +26,7 @@ public class Menu : MonoBehaviour
     private void OnMouseDown()
     {
         Debug.Log("click");
-        SceneManager.LoadScene(Nextscene);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     void OnMouseExit() 

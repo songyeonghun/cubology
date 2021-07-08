@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuX : MonoBehaviour
 {
-    public string scene;
+    public GameObject Menu;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +20,6 @@ public class MenuX : MonoBehaviour
     private void OnMouseDown()
     {
         Debug.Log("click");
-        SceneManager.LoadScene(scene);
+        Menu.SetActive(false);
     }
 }
