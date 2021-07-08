@@ -7,7 +7,8 @@ public class Menu : MonoBehaviour
 {
     public GameObject menuselectpoint1;
     public GameObject menuselectpoint2;
-    public string Nextscene;
+    public GameObject menu, OptionBtn;
+    public string Stage;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +27,9 @@ public class Menu : MonoBehaviour
     private void OnMouseDown()
     {
         Debug.Log("click");
-        SceneManager.LoadScene(Nextscene);
+        SceneManager.LoadScene(Stage);
+        menu.SetActive(false);
+        OptionBtn.SetActive(true);
     }
 
     void OnMouseExit() 
