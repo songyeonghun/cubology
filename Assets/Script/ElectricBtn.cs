@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ElectricBtn : MonoBehaviour
 {
-    public GameObject spark;
+    public GameObject spark, Onoff;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,14 +19,18 @@ public class ElectricBtn : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag=="Spark")
-        spark.SetActive(true);
+        if (collision.gameObject.tag == "Spark")
+        {
+            spark.SetActive(true); Onoff.SetActive(true);
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Spark")
-            spark.SetActive(false);
+        {
+            spark.SetActive(false); Onoff.SetActive(false);
+        }
     }
 
 }
