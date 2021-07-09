@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Button : MonoBehaviour
 {
-    public GameObject Buttonspark;
+    public GameObject Buttonspark,BtnOn;
 
     private void Start()
     {
@@ -16,6 +16,7 @@ public class Button : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Buttonspark.SetActive(true);
+            BtnOn.SetActive(true);
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -23,6 +24,7 @@ public class Button : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Buttonspark.SetActive(false);
+            BtnOn.SetActive(false);
         }
     }
 }
