@@ -58,13 +58,17 @@
   <ItemGroup>
     <Compile Include="Assets\Script\PistonObj.cs" />
     <Compile Include="Assets\Script\BollShot.cs" />
+    <Compile Include="Assets\Script\Option.cs" />
     <Compile Include="Assets\Script\FireBulletObj.cs" />
+    <Compile Include="Assets\Script2\Seed.cs" />
     <Compile Include="Assets\Script\Dontdestroy.cs" />
     <Compile Include="Assets\gamedirector.cs" />
     <Compile Include="Assets\Script\brokentile.cs" />
     <Compile Include="Assets\Script\ResetButton.cs" />
     <Compile Include="Assets\Script\Bullet.cs" />
     <Compile Include="Assets\Script\MenuX.cs" />
+    <Compile Include="Assets\Script\DataController.cs" />
+    <Compile Include="Assets\Script\StartStage.cs" />
     <Compile Include="Assets\Script\WaterInIce.cs" />
     <Compile Include="Assets\Script\Main.cs" />
     <Compile Include="Assets\Script\ElectricOb.cs" />
@@ -85,13 +89,14 @@
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\Script\Button.cs" />
     <Compile Include="Assets\Script\GameDirectorS.cs" />
+    <Compile Include="Assets\Script\Sound.cs" />
     <Compile Include="Assets\Script\Stage.cs" />
     <Compile Include="Assets\Script\FlameObj.cs" />
     <Compile Include="Assets\Script\ElectricBtn.cs" />
     <Compile Include="Assets\Script\PlayerMove.cs" />
+    <Compile Include="Assets\Script2\Planter.cs" />
     <Compile Include="Assets\Script\CannonObj.cs" />
-    <Compile Include="Assets\Script\Option.cs" />
-    <Compile Include="Assets\Script\StartStage.cs" />
+    <Compile Include="Assets\Script\SceneSelect.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
