@@ -26,6 +26,12 @@ public class Soil : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().sprite = sprout;
 
+<<<<<<< HEAD
+=======
+        if (grow == true)
+        { 
+      
+>>>>>>> 897654d7da5fc0927618b3cdd93e6844b9a3b013
             if (collision.gameObject.tag == "Water")
             {
                 GetComponent<SpriteRenderer>().sprite = plant;
