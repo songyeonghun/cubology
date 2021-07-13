@@ -8,7 +8,7 @@ public class PlayerMove : MonoBehaviour
     public Vector3 goback;
     bool canMove = true;
     GameObject reset;
-    
+    int ice;
     void Start()
     {
 
@@ -20,21 +20,25 @@ public class PlayerMove : MonoBehaviour
         {
             goback =new Vector3(transform.position.x,transform.position.y,0f);
             transform.Translate(0, -1, 0);
+            ice = 1;
         }
         else if (canMove == true && Input.GetKeyDown("up"))
         {
            goback = new Vector3(transform.position.x, transform.position.y, 0f);
             transform.Translate(0, 1, 0);
+            ice = 2;
         }
         else if (canMove == true && Input.GetKeyDown("left"))
         {
             goback = new Vector3(transform.position.x, transform.position.y, 0f);
             transform.Translate(-1, 0 , 0);
+            ice = 3;
         }
         else if (canMove == true && Input.GetKeyDown("right"))
         {
             goback = new Vector3(transform.position.x, transform.position.y, 0f);
             transform.Translate(1, 0, 0);
+            ice = 4;
         }
         
     }
@@ -54,6 +58,17 @@ public class PlayerMove : MonoBehaviour
         else if (collision.gameObject.tag == "Enemy"|| collision.gameObject.tag == "Fire")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
+        if (collision.gameObject.tag == "IceTile")
+        {
+            switch (ice)
+            {
+                case 1: transform.Translate(0, -1, 0);break;
+                case 2: transform.Translate(0, 1, 0); break;
+                case 3: transform.Translate(-1, 0, 0); break;
+                case 4: transform.Translate(1, 0, 0); break;
+            }
         }
     }
     IEnumerator nowStun()
