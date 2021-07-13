@@ -7,7 +7,8 @@ public class Soil : MonoBehaviour
 {
     public Sprite sprout;
     public Sprite plant;
-    bool grow = false;
+    public Sprite snowplant;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,16 +25,19 @@ public class Soil : MonoBehaviour
         if (collision.gameObject.tag == "seed")
         {
             GetComponent<SpriteRenderer>().sprite = sprout;
-            grow = true;
-        }
 
-        if (grow = true)
-        { 
-      
-            if (collision.gameObject.tag = "Water")
+            if (collision.gameObject.tag == "Water")
             {
                 GetComponent<SpriteRenderer>().sprite = plant;
+
             }
-        }
+
+            if (collision.gameObject.tag == "IceGas")
+            {
+                GetComponent<SpriteRenderer>().sprite = snowplant;
+
+            }
+
+        }  
     }
 }

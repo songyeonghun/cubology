@@ -56,6 +56,8 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\PistonObj.cs" />
+    <Compile Include="Assets\Script\BollShot.cs" />
     <Compile Include="Assets\Script\Option.cs" />
     <Compile Include="Assets\Script\FireBulletObj.cs" />
     <Compile Include="Assets\Script2\Seed.cs" />
@@ -69,7 +71,9 @@
     <Compile Include="Assets\Script\WaterInIce.cs" />
     <Compile Include="Assets\Script\Main.cs" />
     <Compile Include="Assets\Script\ElectricOb.cs" />
+    <Compile Include="Assets\Script\IceGas.cs" />
     <Compile Include="Assets\Script\FinishObj.cs" />
+    <Compile Include="Assets\Script\Fire.cs" />
     <Compile Include="Assets\Script\Ice.cs" />
     <Compile Include="Assets\Script\Reset.cs" />
     <Compile Include="Assets\Script\ElectricObj.cs" />
@@ -85,13 +89,14 @@
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\Script\Button.cs" />
     <Compile Include="Assets\Script\GameDirectorS.cs" />
+    <Compile Include="Assets\Script2\Soil.cs" />
     <Compile Include="Assets\Script\Sound.cs" />
     <Compile Include="Assets\Script\Stage.cs" />
     <Compile Include="Assets\Script\FlameObj.cs" />
     <Compile Include="Assets\Script\ElectricBtn.cs" />
+    <Compile Include="Assets\Script\PlayerMove.cs" />
     <Compile Include="Assets\Script2\Planter.cs" />
     <Compile Include="Assets\Script\CannonObj.cs" />
-    <Compile Include="Assets\Script2\Soil.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
