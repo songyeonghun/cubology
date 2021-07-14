@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class sprout : MonoBehaviour
+
+public class Plant : MonoBehaviour
 {
-    public Sprite plant;
-    public Sprite snowplant;
+    public GameObject plant;
+    public GameObject sprout;
+  
     // Start is called before the first frame update
     void Start()
     {
@@ -22,12 +23,8 @@ public class sprout : MonoBehaviour
     {
         if (collision.gameObject.tag == "Water")
         {
-            GetComponent<SpriteRenderer>().sprite = plant;
-        }
-
-        if (collision.gameObject.tag == "IceGas")
-        {
-            GetComponent<SpriteRenderer>().sprite = snowplant;
+            plant.SetActive(true);
+            sprout.SetActive(false);
         }
     }
 }

@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class SnowPlant : MonoBehaviour
 {
-    public Sprite snowplant;
+    public GameObject plant;
+    public GameObject snowplant;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,8 +22,8 @@ public class SnowPlant : MonoBehaviour
     {
         if (collision.gameObject.tag == "IceGas")
         {
-            Debug.Log("collison");
-            GetComponent<SpriteRenderer>().sprite = snowplant;
+            plant.SetActive(false);
+            snowplant.SetActive(true);
         }
     }
 }
