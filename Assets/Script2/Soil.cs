@@ -1,13 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Soil : MonoBehaviour
 {
-    public Sprite sprout;
-    public Sprite plant;
-    bool grow = false;
+    public GameObject soil;
+    public GameObject sprout;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,17 +22,9 @@ public class Soil : MonoBehaviour
     {
         if (collision.gameObject.tag == "seed")
         {
-            GetComponent<SpriteRenderer>().sprite = sprout;
-            grow = true;
+            soil.SetActive(false);
+            sprout.SetActive(true);
         }
-
-        if (grow == true)
-        { 
-      
-            if (collision.gameObject.tag == "Water")
-            {
-                GetComponent<SpriteRenderer>().sprite = plant;
-            }
-        }
+        
     }
 }
