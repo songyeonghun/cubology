@@ -7,7 +7,11 @@ public class Plant : MonoBehaviour
 {
     public GameObject plant;
     public GameObject sprout;
-  
+    public GameObject leaf;
+    public GameObject leaf1;
+    public GameObject leaf2;
+    public GameObject leaf3;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +29,11 @@ public class Plant : MonoBehaviour
         {
             plant.SetActive(true);
             sprout.SetActive(false);
+            Destroy(leaf, 1f);
+            Destroy(leaf1, 1f);
+            Destroy(leaf2, 1f);
+            Destroy(leaf3, 1f);
         }
     }
+
 }
