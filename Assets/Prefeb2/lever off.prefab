@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2677674339902839651}
   - component: {fileID: 2677674339902839648}
   m_Layer: 7
-  m_Name: lever
+  m_Name: lever off
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -131,7 +131,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.5}
+  m_Size: {x: 0.9, y: 0.9}
   m_EdgeRadius: 0
 --- !u!1 &2677674340235614788
 GameObject:
@@ -158,7 +158,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 2677674340235614788}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1, y: 1, z: 0}
@@ -166,19 +165,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2677674339902839649}
   m_RootOrder: 1
-=======
-  m_GameObject: {fileID: 3233744099346467078}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6033774295392038545}
-  - {fileID: 521675348897699278}
-  - {fileID: 702842942490342121}
-  - {fileID: 4923417318821039643}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
->>>>>>> 0284b941ac1bf787e723105b6296457294babb44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2677674340235614787
 SpriteRenderer:
