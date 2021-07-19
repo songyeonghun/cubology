@@ -9,6 +9,7 @@ public class PlayerMove : MonoBehaviour
     bool canMove = true;
     GameObject reset;
     int ice;
+    RaycastHit2D down,up,right,left;
     void Start()
     {
 
@@ -16,27 +17,29 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
-        if (canMove==true&&Input.GetKeyDown("down"))
+        //레이캐스트
+        down = Physics2D.Raycast(transform.position, Vector2.down,1, LayerMask.GetMask("Cube"));
+        up = Physics2D.Raycast(transform.position, Vector2.up, 1, LayerMask.GetMask("Cube"));
+        right = Physics2D.Raycast(transform.position, Vector2.right, 1, LayerMask.GetMask("Cube"));
+        left = Physics2D.Raycast(transform.position, Vector2.left, 1, LayerMask.GetMask("Cube"));
+
+        if (canMove == true&&Input.GetKeyDown("down") && down.collider == null)
         {
-            goback =new Vector3(transform.position.x,transform.position.y,0f);
             transform.Translate(0, -1, 0);
             ice = 1;
         }
-        else if (canMove == true && Input.GetKeyDown("up"))
+        if (canMove == true && Input.GetKeyDown("up") && up.collider == null)
         {
-           goback = new Vector3(transform.position.x, transform.position.y, 0f);
             transform.Translate(0, 1, 0);
             ice = 2;
         }
-        else if (canMove == true && Input.GetKeyDown("left"))
+        if (canMove == true && Input.GetKeyDown("left") && left.collider == null)
         {
-            goback = new Vector3(transform.position.x, transform.position.y, 0f);
             transform.Translate(-1, 0 , 0);
             ice = 3;
         }
-        else if (canMove == true && Input.GetKeyDown("right"))
+        if (canMove == true && Input.GetKeyDown("right") && right.collider == null)
         {
-            goback = new Vector3(transform.position.x, transform.position.y, 0f);
             transform.Translate(1, 0, 0);
             ice = 4;
         }
@@ -45,12 +48,7 @@ public class PlayerMove : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag=="Wall")
-        {
-            Debug.Log("goback");
-            transform.position = goback;
-        }
-        else if(collision.gameObject.tag == "Stun")
+         if(collision.gameObject.tag == "Stun")
         {
             canMove = false;
             StartCoroutine(nowStun());
@@ -64,10 +62,14 @@ public class PlayerMove : MonoBehaviour
         {
             switch (ice)
             {
-                case 1: transform.Translate(0, -1, 0);break;
-                case 2: transform.Translate(0, 1, 0); break;
-                case 3: transform.Translate(-1, 0, 0); break;
-                case 4: transform.Translate(1, 0, 0); break;
+                case 1: if(down.collider == null)
+                        transform.Translate(0, -1, 0);break;
+                case 2: if (up.collider == null) 
+                        transform.Translate(0, 1, 0); break;
+                case 3: if (left.collider == null) 
+                        transform.Translate(-1, 0, 0); break;
+                case 4: if (right.collider == null) 
+                        transform.Translate(1, 0, 0); break;
             }
         }
     }
