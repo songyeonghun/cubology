@@ -10,7 +10,7 @@ public class Seed : MonoBehaviour
     public float speed = 10f;
 
 
-        public void Fire(Vector3 dir)
+    public void Fire(Vector3 dir)
     {
         direction = dir;
         isFire = true;
