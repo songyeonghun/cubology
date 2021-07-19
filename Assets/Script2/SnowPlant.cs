@@ -5,8 +5,12 @@ using UnityEngine.UI;
 
 public class SnowPlant : MonoBehaviour
 {
-    public GameObject plant;
+    public GameObject sprout;
     public GameObject snowplant;
+    public GameObject iceleaf;
+    public GameObject iceleaf1;
+    public GameObject iceleaf2;
+    public GameObject iceleaf3;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,8 +26,12 @@ public class SnowPlant : MonoBehaviour
     {
         if (collision.gameObject.tag == "IceGas")
         {
-            plant.SetActive(false);
+            sprout.SetActive(false);
             snowplant.SetActive(true);
+            Destroy(iceleaf, 1f);
+            Destroy(iceleaf1, 1f);
+            Destroy(iceleaf2, 1f);
+            Destroy(iceleaf3, 1f);
         }
     }
 }

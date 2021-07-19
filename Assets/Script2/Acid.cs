@@ -22,5 +22,9 @@ public class Acid : MonoBehaviour
         {
             return;
         }
+        if(collision.gameObject.tag=="leaf")
+        {
+            Destroy(gameObject);
+        }
     }
 }

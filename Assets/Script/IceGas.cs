@@ -18,7 +18,7 @@ public class IceGas : MonoBehaviour
 
     //부딪히면 삭제
     void OnCollisionEnter2D(Collision2D collision)
-    {  
+    {
             Destroy(gameObject);
     }
 
