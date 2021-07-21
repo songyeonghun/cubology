@@ -24,19 +24,17 @@ public class FlameObj : MonoBehaviour
         {
             onoff++; timer = 0;
         }
-        if (onoff % 2 == 0)
-        {
-            fire1.SetActive(false);
-            fire2.SetActive(false);
-            fire3.SetActive(false);
-            timer = 0;
-        }
-        else
+        if (onoff % 2 == 1)
         {
             fire1.SetActive(true);
             fire2.SetActive(true);
             fire3.SetActive(true);
-            timer = 0;
+        }
+        else
+        {
+            fire1.SetActive(false);
+            fire2.SetActive(false);
+            fire3.SetActive(false);
         }
     }
 }

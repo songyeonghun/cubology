@@ -204,20 +204,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 9058374}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &44070176
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1418277334}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &86801315 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3460664977324842561, guid: 7421be3c698b89b468f29430ec538180,
@@ -890,7 +876,7 @@ PrefabInstance:
     - target: {fileID: 4351954572503815397, guid: 628098dd122af784eb9bf49757b6cf6e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4351954572503815397, guid: 628098dd122af784eb9bf49757b6cf6e,
         type: 3}
@@ -1411,7 +1397,7 @@ GameObject:
   - component: {fileID: 881764581}
   - component: {fileID: 881764580}
   - component: {fileID: 881764582}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tilemap
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -3713,7 +3699,7 @@ Transform:
   - {fileID: 1391715000}
   - {fileID: 9058375}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1034827348
 PrefabInstance:
@@ -3799,7 +3785,7 @@ PrefabInstance:
     - target: {fileID: 9036736014818336559, guid: d5477b5bd8ab6f645be3f703eb203c8e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9036736014818336559, guid: d5477b5bd8ab6f645be3f703eb203c8e,
         type: 3}
@@ -4233,22 +4219,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1370654700}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1418277334
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 44070176}
-  m_Layer: 0
-  m_Name: Recovery GameObject (44070176)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!4 &1443773623 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5344408653351557782, guid: 59032121d4ff814449e7a64474c217b0,
@@ -4390,7 +4360,7 @@ Transform:
   m_Children:
   - {fileID: 881764579}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1727464911 stripped
 Transform:

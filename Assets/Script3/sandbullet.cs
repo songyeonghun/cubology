@@ -8,7 +8,7 @@ public class sandbullet : MonoBehaviour
     bool isFire = true;
     Vector3 direction;
     public float speed = 10f;
-
+    public GameObject Sand;
 
     public void Fire(Vector3 dir)
     {
