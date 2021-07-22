@@ -21,6 +21,7 @@ public class IceObj : MonoBehaviour
     IEnumerator IceT()
     {
         yield return new WaitForSeconds(4f);
+        StartCoroutine(IceF());
         icegas.SetActive(true);
         yield return new WaitForSeconds(0.1f);
         icegas1.SetActive(true);
@@ -36,11 +37,11 @@ public class IceObj : MonoBehaviour
         icegas6.SetActive(true);
         yield return new WaitForSeconds(0.1f);
         icegas7.SetActive(true);
-        StartCoroutine(IceF());
     }
 
     IEnumerator IceF()
     {
+        StartCoroutine(IceT());
         yield return new WaitForSeconds(2f);
         icegas.SetActive(false);
         yield return new WaitForSeconds(0.1f);
@@ -57,7 +58,6 @@ public class IceObj : MonoBehaviour
         icegas6.SetActive(false);
         yield return new WaitForSeconds(0.1f);
         icegas7.SetActive(false);
-        StartCoroutine(IceT());
     }
 
 }
