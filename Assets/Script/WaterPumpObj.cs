@@ -17,7 +17,7 @@ public class WaterPumpObj : MonoBehaviour
     {
 
         //ON되면 
-        if (onoff == 1)
+        if (onoff == 1|| onoff == 2)
         {
             //설정된 방향으로 생성(오브젝트있으면 생성 X)
             switch (way)
@@ -46,9 +46,9 @@ public class WaterPumpObj : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         //오프상태일때 전기와닿으면
-        if (onoff==0&&collision.gameObject.tag == "Spark")
+        if (onoff == 1|| onoff==0&&collision.gameObject.tag == "Spark")
         {
-            onoff = 1;
+            onoff++;
             number++;
         }
     }
