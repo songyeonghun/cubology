@@ -6,6 +6,7 @@ public class WaterPumpObj : MonoBehaviour
 {
     public GameObject fire1;
     public int onoff = 0, way = 0;
+    public static int number=0;
     RaycastHit2D hit;
     void Start()
     {
@@ -38,7 +39,7 @@ public class WaterPumpObj : MonoBehaviour
                     Instantiate(fire1, new Vector3(transform.position.x, transform.position.y - 1, 0), Quaternion.identity);
                     Instantiate(fire1, new Vector3(transform.position.x - 1, transform.position.y - 1, 0), Quaternion.identity); break;
             }
-            onoff = 2;
+            onoff = 0;
         }
     }
 
@@ -48,6 +49,7 @@ public class WaterPumpObj : MonoBehaviour
         if (onoff==0&&collision.gameObject.tag == "Spark")
         {
             onoff = 1;
+            number++;
         }
     }
 
