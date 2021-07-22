@@ -15,11 +15,27 @@ C:/Users/dudgn/Desktop/수업/여름합숙/cubology
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 58812
 Successfully changed project path to: C:/Users/dudgn/Desktop/수업/여름합숙/cubology
 C:/Users/dudgn/Desktop/수업/여름합숙/cubology
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 73.86 ms, found 2 plugins.
+=======
+<<<<<<< HEAD
+63402
+Successfully changed project path to: C:/Users/신주현/Documents/GitHub/cube
+C:/Users/신주현/Documents/GitHub/cube
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 108.22 ms, found 2 plugins.
+=======
+62551
+Successfully changed project path to: C:/Users/dudgn/Desktop/수업/여름합숙/cubology
+C:/Users/dudgn/Desktop/수업/여름합숙/cubology
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 74.65 ms, found 2 plugins.
+>>>>>>> 04810b4c4ec3bb7a089881ffa0bed9b3e474c57e
+>>>>>>> ff74446057bf67e794ce33aa10c1734243d76667
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -32,6 +48,65 @@ Direct3D:
     VRAM:     8088 MB
     Driver:   27.21.14.6589
 Initialize mono
+<<<<<<< HEAD
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003710 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 57.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.187 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016140 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.640 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1996 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.6 MB.
+System memory in use after: 81.7 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 2401.
+Total: 6.437800 ms (FindLiveObjects: 0.325500 ms CreateObjectMapping: 0.164300 ms MarkObjects: 5.779900 ms  DeleteObjects: 0.166600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Script3/IceObj.cs
+  artifactKey: Guid(f9c2b67d03e15754a98de75c58f8ab68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script3/IceObj.cs using Guid(f9c2b67d03e15754a98de75c58f8ab68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61990d723250a87a9eadca98f64a8634') in 0.052194 seconds
+  Import took 0.055904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/Script3/sandcannon.cs
+  artifactKey: Guid(7df865ec3ca8abb4791648c1be768731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script3/sandcannon.cs using Guid(7df865ec3ca8abb4791648c1be768731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf563cdb5170c95fb5b161d43c4623c') in 0.002820 seconds
+  Import took 0.006277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Script3/sandbullet.cs
+  artifactKey: Guid(cf8bffd0da9ad7c4f86a68bb9f2e3a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script3/sandbullet.cs using Guid(cf8bffd0da9ad7c4f86a68bb9f2e3a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3505ae6a3064f6c2e9acd6d8ea09b97') in 0.004732 seconds
+  Import took 0.010337 seconds .
+=======
 Mono path[0] = 'C:/Program Files/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
@@ -796,10 +871,19 @@ Total: 7.634800 ms (FindLiveObjects: 0.395400 ms CreateObjectMapping: 0.111200 m
 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 761.088293 seconds.
   path: Assets/Prefeb3/HoloWall.prefab
   artifactKey: Guid(088ed61aeff5ea641973d68a845019c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefeb3/HoloWall.prefab using Guid(088ed61aeff5ea641973d68a845019c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc939e5f36c003f1bdb401060df06e60') in 0.084831 seconds
   Import took 0.088821 seconds .
+=======
+  Time since last request: 0.000244 seconds.
+  path: Assets/Sprite3/IcegasRepeater3.png
+  artifactKey: Guid(1b9dc538f2ba82840bbff885600f8735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite3/IcegasRepeater3.png using Guid(1b9dc538f2ba82840bbff885600f8735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '206634ef3a1e5ae65eeccd0693ae7214') in 0.019534 seconds
+  Import took 0.023492 seconds .
+>>>>>>> 04810b4c4ec3bb7a089881ffa0bed9b3e474c57e
+>>>>>>> ff74446057bf67e794ce33aa10c1734243d76667
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

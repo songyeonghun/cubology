@@ -11,24 +11,20 @@ public class JumpObj : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
-    //private void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    if (collision.gameObject.tag == "Player")
-    //    {
-    //        GetComponent<SpriteRenderer>().sprite = jump3;
-    //        yield return new WaitForSeconds(0.3f);
-    //        GetComponent<SpriteRenderer>().sprite = jump2;
-    //        yield return new WaitForSeconds(0.1f);
-    //        GetComponent<SpriteRenderer>().sprite = jump;
-    //    }
-    
-    //}
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        GetComponent<SpriteRenderer>().sprite = jump3;
+        yield return new WaitForSeconds(0.1f);
+        GetComponent<SpriteRenderer>().sprite = jump2;
+        yield return new WaitForSeconds(0.1f);
+        GetComponent<SpriteRenderer>().sprite = jump;
+    }
 }
