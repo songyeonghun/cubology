@@ -24,8 +24,7 @@ public class Eleclay : MonoBehaviour
     {
         if (collision.gameObject.tag == "Spark")
         {
-            if (eleclay.transform.position.y = elecston.transform.position.y)
-            {
+           
                 cubeDistance = Vector3.Distance(eleclay.transform.position, elecston.transform.position);
                 if (cubeDistance < 9)
                 {
@@ -41,14 +40,7 @@ public class Eleclay : MonoBehaviour
                         Instantiate(laser, new Vector3(transform.position.x + i, transform.position.y, 0), Quaternion.identity);
                     }
                 }
-            }
-            else
-            {
-                for (int i = 1; i < 9; i++)
-                {
-                    Instantiate(laser, new Vector3(transform.position.x + i, transform.position.y, 0), Quaternion.identity);
-                }
-            }
+            
         }
     }
     private void OnCollisionExit2D(Collision2D collision)

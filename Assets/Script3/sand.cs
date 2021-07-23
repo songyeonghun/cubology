@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class sand : MonoBehaviour
 {
-    public GameObject Sand;
-    public GameObject Cactus;
+    public GameObject Sandtile;
+    public GameObject sandcactus;
 
     // Start is called before the first frame update
     void Start()
@@ -22,8 +22,8 @@ public class sand : MonoBehaviour
     {
         if (collision.gameObject.tag == "seed")
         {
-            Sand.SetActive(false);
-            Cactus.SetActive(true);
+            Sandtile.SetActive(false);
+            sandcactus.SetActive(true);
         }
 
     }
