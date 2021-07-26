@@ -17,9 +17,8 @@ public class Stage : MonoBehaviour
     {
         
     }
-    private void OnMouseDown()
+    public void StageSelect()
     {
-        Debug.Log("click");
         SceneManager.LoadScene(selectscene);
     }
 }
