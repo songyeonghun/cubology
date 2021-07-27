@@ -8,9 +8,10 @@ public class WaterPumpObj : MonoBehaviour
     public int onoff = 0, way = 0;
     public static int number=0;
     RaycastHit2D hit;
+    public AudioSource audioSource;
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -19,22 +20,27 @@ public class WaterPumpObj : MonoBehaviour
         //ON되면 
         if (onoff == 1|| onoff == 2)
         {
+            audioSource.Play();
             //설정된 방향으로 생성(오브젝트있으면 생성 X)
             switch (way)
             {
                 case 0://오른쪽
+                    audioSource.Play();
                     Instantiate(fire1, new Vector3(transform.position.x + 1, transform.position.y, 0), Quaternion.identity);
                     Instantiate(fire1, new Vector3(transform.position.x + 1, transform.position.y + 1, 0), Quaternion.identity);
                     Instantiate(fire1, new Vector3(transform.position.x + 1, transform.position.y - 1, 0), Quaternion.identity);break;
                 case 1://왼쪽
+                    audioSource.Play();
                     Instantiate(fire1, new Vector3(transform.position.x - 1, transform.position.y, 0), Quaternion.identity);
                     Instantiate(fire1, new Vector3(transform.position.x - 1, transform.position.y + 1, 0), Quaternion.identity);
                     Instantiate(fire1, new Vector3(transform.position.x - 1, transform.position.y - 1, 0), Quaternion.identity); break;
                 case 2://위쪽
+                    audioSource.Play();
                     Instantiate(fire1, new Vector3(transform.position.x + 1, transform.position.y + 1, 0), Quaternion.identity);
                     Instantiate(fire1, new Vector3(transform.position.x , transform.position.y + 1, 0), Quaternion.identity);
                     Instantiate(fire1, new Vector3(transform.position.x - 1, transform.position.y + 1, 0), Quaternion.identity); break;
                 case 3://아래쪽
+                    audioSource.Play();
                     Instantiate(fire1, new Vector3(transform.position.x + 1, transform.position.y - 1, 0), Quaternion.identity);
                     Instantiate(fire1, new Vector3(transform.position.x, transform.position.y - 1, 0), Quaternion.identity);
                     Instantiate(fire1, new Vector3(transform.position.x - 1, transform.position.y - 1, 0), Quaternion.identity); break;

@@ -5,12 +5,14 @@ using UnityEngine;
 public class jump : MonoBehaviour
 {
     public GameObject player;
-    public Vector2 target;
+    public GameObject target;
+    public Vector3 playerPos;
+    public Vector3 targetPos;
 
     // Start is called before the first frame update
     void Start()
     {
-        target = transform.position;
+
     }
 
     // Update is called once per frame
@@ -22,9 +24,14 @@ public class jump : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Debug.Log("¾Æ");
+            Vector3 playerPos;
+            Vector3 targetPos;
 
-            player.transform.position = target;
+            playerPos = player.transform.position;
+            targetPos = target.transform.position;
+
+
+            targetPos = playerPos;
         }
     }
 }
