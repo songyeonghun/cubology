@@ -8,6 +8,7 @@ public class sandbullet : MonoBehaviour
     bool isFire = true;
     Vector3 direction;
     public float speed = 10f;
+    public GameObject Sandplant;
 
 
     public void Fire(Vector3 dir)
@@ -29,6 +30,7 @@ public class sandbullet : MonoBehaviour
         if (collision.gameObject.tag != "plant" && collision.gameObject.tag != "Spark" && collision.gameObject.tag != "Player")
         {
             Destroy(gameObject);
+            Instantiate(Sandplant, new Vector3(transform.position.x, transform.position.y, 0), Quaternion.identity);
         }
     }
 }
