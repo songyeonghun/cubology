@@ -5,15 +5,18 @@ using UnityEngine;
 public class ElectricOb : MonoBehaviour
 {
     public GameObject spk;
+    public AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(SparkT());
+        audioSource = GetComponent<AudioSource>();
     }
 
     IEnumerator SparkT()
     {
         yield return new WaitForSeconds(3f);
+        audioSource.Play();
         spk.SetActive(true);
         StartCoroutine(SparkF());
     }
