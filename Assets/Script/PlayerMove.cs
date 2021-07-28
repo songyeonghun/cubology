@@ -82,6 +82,7 @@ public class PlayerMove : MonoBehaviour
                         transform.Translate(1, 0, 0); break;
             }
         }
+        
 
     }
     IEnumerator nowStun()
