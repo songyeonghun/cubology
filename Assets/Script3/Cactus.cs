@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class cactus : MonoBehaviour
+public class Cactus : MonoBehaviour
 {
-    public GameObject sandcactus;
+    public GameObject cactus;
     public GameObject Cactusboom;
     // Start is called before the first frame update
     void Start()
@@ -19,15 +19,11 @@ public class cactus : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Fire")
-        { 
-            sandcactus.SetActive(false);
-            Instantiate(Cactusboom, new Vector3(transform.position.x, transform.position.y, 0), Quaternion.identity);
-        }
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "Fire" && collision.gameObject.tag == "Enemy")
         {
-            sandcactus.SetActive(false);
-            Instantiate(Cactusboom, new Vector3(transform.position.x, transform.position.y, 0), Quaternion.identity);
+            cactus.SetActive(false);
+            Cactusboom.SetActive(true);
         }
+
     }
 }
