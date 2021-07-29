@@ -5,15 +5,6 @@ using UnityEngine;
 public class ElecDis : MonoBehaviour
 {
     public GameObject elecball;
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
