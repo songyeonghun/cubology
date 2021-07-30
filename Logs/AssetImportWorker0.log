@@ -1,37 +1,77 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1110; Version 2009; 64bit' Language: 'ko' Physical Memory: 7901 MB
+OS: 'Windows 10 Home; OS build 19041.1110; Version 2004; 64bit' Language: 'ko' Physical Memory: 16316 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Unity.exe
+C:\Program Files\2020.3.7f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/신주현/Documents/GitHub/cube
+C:/Users/dudgn/Desktop/수업/여름합숙/cubology
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 60349
 Successfully changed project path to: C:/Users/신주현/Documents/GitHub/cube
 C:/Users/신주현/Documents/GitHub/cube
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 90.01 ms, found 2 plugins.
+=======
+<<<<<<< HEAD
+51916
+Successfully changed project path to: C:/Users/dudgn/Desktop/수업/여름합숙/cubology
+C:/Users/dudgn/Desktop/수업/여름합숙/cubology
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 75.08 ms, found 2 plugins.
+=======
+53364
+Successfully changed project path to: C:/Users/신주현/Documents/GitHub/cube
+C:/Users/신주현/Documents/GitHub/cube
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 90.32 ms, found 2 plugins.
+>>>>>>> f3f84f4a1fb544f438f4bed0920425fc2a7b0fba
+>>>>>>> 1a4549d1dfbb9a89b9de4e9f270aecf080b295e5
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/신주현/Documents/GitHub/cube/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/dudgn/Desktop/수업/여름합숙/cubology/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Plus Graphics (ID=0x8a52)
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
     Vendor:   
-    VRAM:     3950 MB
-    Driver:   27.20.100.9510
+    VRAM:     8088 MB
+    Driver:   27.21.14.6589
 Initialize mono
+<<<<<<< HEAD
+Mono path[0] = 'C:/Program Files/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002661 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 61.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.763 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007493 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.419 seconds
+=======
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
@@ -53,17 +93,45 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  1.539 seconds
+=======
+- Completed reload, in  1.491 seconds
+>>>>>>> f3f84f4a1fb544f438f4bed0920425fc2a7b0fba
+>>>>>>> 1a4549d1dfbb9a89b9de4e9f270aecf080b295e5
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2007 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 81.9 MB.
 System memory in use after: 81.9 MB.
+=======
+<<<<<<< HEAD
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+=======
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+>>>>>>> f3f84f4a1fb544f438f4bed0920425fc2a7b0fba
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2006 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.4 MB.
+System memory in use after: 84.5 MB.
+>>>>>>> 1a4549d1dfbb9a89b9de4e9f270aecf080b295e5
 
+<<<<<<< HEAD
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 2411.
+Total: 6.907000 ms (FindLiveObjects: 0.255800 ms CreateObjectMapping: 0.070500 ms MarkObjects: 6.468100 ms  DeleteObjects: 0.109900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/TestStage3.unity
+  artifactKey: Guid(de697fe0c2249d84f8b53a911416cb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestStage3.unity using Guid(de697fe0c2249d84f8b53a911416cb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6655dd0cf9cfa38b1968cfeeb215c1') in 0.024323 seconds
+  Import took 0.028061 seconds .
+=======
 Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 2412.
 Total: 6.839500 ms (FindLiveObjects: 0.186400 ms CreateObjectMapping: 0.069100 ms MarkObjects: 6.445300 ms  DeleteObjects: 0.137200 ms)
 
@@ -302,6 +370,7 @@ Received Import Request.
 Start importing Assets/Scenes/Stage29.unity using Guid(0bd2faa5059d24a41b83e87a9f78ece4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671f59bb93e2b3ff1ac6361b64413263') in 0.005282 seconds
   Import took 0.010378 seconds .
 
+<<<<<<< HEAD
 ========================================================================
 Received Import Request.
   Time since last request: 0.001103 seconds.
@@ -309,11 +378,38 @@ Received Import Request.
   artifactKey: Guid(0bd2faa5059d24a41b83e87a9f78ece4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Stage29.unity using Guid(0bd2faa5059d24a41b83e87a9f78ece4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671f59bb93e2b3ff1ac6361b64413263') in 0.003686 seconds
   Import took 0.009558 seconds .
+=======
+ -> (artifact id: '00c6dbf1c371e681fe7583092fce219c') in 0.333100 seconds
+  Import took 0.338444 seconds .
+>>>>>>> f3f84f4a1fb544f438f4bed0920425fc2a7b0fba
+>>>>>>> 1a4549d1dfbb9a89b9de4e9f270aecf080b295e5
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.015057 seconds.
+=======
+<<<<<<< HEAD
+Registered in 0.006604 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.369 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2000 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.3 MB.
+System memory in use after: 84.4 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2414.
+Total: 6.707200 ms (FindLiveObjects: 0.258300 ms CreateObjectMapping: 0.056200 ms MarkObjects: 6.350100 ms  DeleteObjects: 0.040600 ms)
+=======
+Registered in 0.017882 seconds.
+>>>>>>> 1a4549d1dfbb9a89b9de4e9f270aecf080b295e5
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
@@ -749,6 +845,7 @@ UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityE
 
 [C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
 
+<<<<<<< HEAD
 The AnimationClip 'Fire' used by the Animation component 'Fire(Clone)AnimatorPreview' must be marked as Legacy.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
@@ -1640,5 +1737,10 @@ Received Import Request.
   artifactKey: Guid(af6d6a612281b524a8fe4aac76f87fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Stage31.unity using Guid(af6d6a612281b524a8fe4aac76f87fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605fd274d320a917dbdb870fb7b3b314') in 0.005255 seconds
   Import took 0.010655 seconds .
+=======
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2443.
+Total: 23.254100 ms (FindLiveObjects: 0.440000 ms CreateObjectMapping: 0.172000 ms MarkObjects: 22.546000 ms  DeleteObjects: 0.093100 ms)
+>>>>>>> f3f84f4a1fb544f438f4bed0920425fc2a7b0fba
+>>>>>>> 1a4549d1dfbb9a89b9de4e9f270aecf080b295e5
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
