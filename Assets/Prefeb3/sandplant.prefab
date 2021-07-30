@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7ec7f6d0bbe774d924687a00aecf7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sandcactus: {fileID: 2705804571593850689}
+  cactus: {fileID: 2705804571593850689}
   Cactusboom: {fileID: 6963420553966277201, guid: 285a6b65babff894c9c096aab75fcf71,
     type: 3}
 --- !u!61 &6391133529848182896
@@ -253,7 +253,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: af4626a1d86adc04a8f84297ad618e18, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 26c652e0250f81b479a923975eb7fb1a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -276,8 +276,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faf95362b3cce554c9346e5a63c546ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sandtile: {fileID: 2705804571832358540}
-  sandcactus: {fileID: 2705804571593850689}
+  Sand: {fileID: 2705804571832358540}
+  Cactus: {fileID: 2705804571593850689}
 --- !u!50 &5819758129877913596
 Rigidbody2D:
   serializedVersion: 4

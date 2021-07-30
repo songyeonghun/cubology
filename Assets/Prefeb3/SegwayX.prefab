@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1348896550173871284}
   - component: {fileID: 1348896550173871283}
   - component: {fileID: 1348896550173871287}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: SegwayX
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!58 &1348896550173871283
 CircleCollider2D:
   m_ObjectHideFlags: 0

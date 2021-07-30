@@ -10,7 +10,7 @@ public class ElecDis : MonoBehaviour
     {
         if(collision.gameObject.tag=="Spark")
         {
-            var bullet = Instantiate(elecball, new Vector2(transform.position.x+1,transform.position.y), Quaternion.identity).GetComponent<ElecCannon>();
+            var bullet = Instantiate(elecball, gameObject.transform.right, Quaternion.identity).GetComponent<ElecCannon>();
             bullet.Fire(transform.right);
         }
     }
