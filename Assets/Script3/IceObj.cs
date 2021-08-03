@@ -12,6 +12,7 @@ public class IceObj : MonoBehaviour
     public GameObject icegas5;
     public GameObject icegas6;
     public GameObject icegas7;
+
     // Start is called before the first frame update
     void Start()
     {
