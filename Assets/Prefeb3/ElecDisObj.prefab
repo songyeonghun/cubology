@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2299267785126695394}
   - component: {fileID: 6861224991800739401}
   - component: {fileID: 4600144674192211480}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: ElecDisObj
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -99,6 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   elecball: {fileID: 1829752047287972491, guid: f683bb5b1da8e1e4e95b468f62163c57,
     type: 3}
+  way: 0
 --- !u!61 &6861224991800739401
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -4,19 +4,15 @@ using UnityEngine;
 
 public class Button : MonoBehaviour
 {
-    public GameObject Buttonspark,BtnOn;
-
-    private void Start()
-    {
-
-    }
+    public GameObject Buttonspark;
+    public Sprite On,Off;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
             Buttonspark.SetActive(true);
-            BtnOn.SetActive(true);
+            GetComponent<SpriteRenderer>().sprite = On;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -24,7 +20,7 @@ public class Button : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Buttonspark.SetActive(false);
-            BtnOn.SetActive(false);
+            GetComponent<SpriteRenderer>().sprite = Off;
         }
     }
 }

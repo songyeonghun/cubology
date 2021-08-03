@@ -6,24 +6,20 @@ public class PistonObj : MonoBehaviour
 {
     public int onoff = 0;
     float onDelay = 0.2f, timer = 0;
-    public GameObject pistonbar;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Sprite On, Off;
 
-    // Update is called once per frame
     void Update()
     {
         timer += Time.deltaTime;
         if (onoff % 2 == 0)
         {
-            pistonbar.SetActive(false);
+            GetComponent<SpriteRenderer>().sprite = Off;
+            GetComponent<BoxCollider2D>().size = new Vector2(0.9f, 0.9f);
         }
         else
         {
-            pistonbar.SetActive(true);
+            GetComponent<SpriteRenderer>().sprite = On;
+            GetComponent<BoxCollider2D>().size = new Vector2(1.8f, 0.9f);
         }
     }
 

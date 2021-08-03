@@ -35,7 +35,6 @@ public class Bullet : MonoBehaviour
         {
             var bullet = Instantiate(fireboll, transform.position, Quaternion.identity).GetComponent<FireBulletObj>();
             bullet.Fire(direction);
-            Debug.Log("fire");
         }
         Destroy(gameObject);
     }

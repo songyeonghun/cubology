@@ -4,24 +4,15 @@ using UnityEngine;
 
 public class ElectricBtn : MonoBehaviour
 {
-    public GameObject spark, Onoff;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public GameObject spark;
+    public Sprite On, Off;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Spark")
         {
-            spark.SetActive(true); Onoff.SetActive(true);
+            spark.SetActive(true);
+            GetComponent<SpriteRenderer>().sprite = On;
         }
     }
 
@@ -29,7 +20,8 @@ public class ElectricBtn : MonoBehaviour
     {
         if (collision.gameObject.tag == "Spark")
         {
-            spark.SetActive(false); Onoff.SetActive(false);
+            spark.SetActive(false);
+            GetComponent<SpriteRenderer>().sprite = Off;
         }
     }
 
