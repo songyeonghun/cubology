@@ -5,16 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMove : MonoBehaviour
 {
-    public Vector3 goback;
     bool canMove = true;
     GameObject reset;
     int ice;
     float timer;
     RaycastHit2D down,up,right,left, Hdown, Hup, Hright, Hleft;
-    void Start()
-    {
-
-    }
 
     void Update()
     {
@@ -24,10 +19,10 @@ public class PlayerMove : MonoBehaviour
         up = Physics2D.Raycast(transform.position, Vector2.up, 1.45f, LayerMask.GetMask("Cube"));
         right = Physics2D.Raycast(transform.position, Vector2.right, 1.45f, LayerMask.GetMask("Cube"));
         left = Physics2D.Raycast(transform.position, Vector2.left, 1.45f, LayerMask.GetMask("Cube"));
-        Hdown = Physics2D.Raycast(transform.position, Vector2.down, 1.45f, LayerMask.GetMask("EnemyHolo"));
-        Hup = Physics2D.Raycast(transform.position, Vector2.up, 1.45f, LayerMask.GetMask("EnemyHolo"));
-        Hright = Physics2D.Raycast(transform.position, Vector2.right, 1.45f, LayerMask.GetMask("EnemyHolo"));
-        Hleft = Physics2D.Raycast(transform.position, Vector2.left, 1.45f, LayerMask.GetMask("EnemyHolo"));
+        Hdown = Physics2D.Raycast(transform.position, Vector2.down, 1.45f, LayerMask.GetMask("HoloWallOff"));
+        Hup = Physics2D.Raycast(transform.position, Vector2.up, 1.45f, LayerMask.GetMask("HoloWallOff"));
+        Hright = Physics2D.Raycast(transform.position, Vector2.right, 1.45f, LayerMask.GetMask("HoloWallOff"));
+        Hleft = Physics2D.Raycast(transform.position, Vector2.left, 1.45f, LayerMask.GetMask("HoloWallOff"));
 
         if (timer>0.2f&&canMove == true&&Input.GetKeyDown("down") && down.collider == null && Hdown.collider == null)
         {
@@ -53,6 +48,7 @@ public class PlayerMove : MonoBehaviour
             ice = 4;
             timer = 0;
         }
+        
         
     }
 

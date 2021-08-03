@@ -28,7 +28,7 @@ public class segwayX : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         speed = -speed;
-        if (collision.gameObject.tag == "Wall")
+        if (collision.gameObject.tag == "Wall" && collision.gameObject.tag != "Enemy" && collision.gameObject.tag != "Flame")
         {
             distance++;
         }
