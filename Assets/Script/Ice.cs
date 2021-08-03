@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Ice : MonoBehaviour
 {
-    public AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
@@ -22,7 +22,6 @@ public class Ice : MonoBehaviour
 
         if (collision.gameObject.tag == "Fire")
         {
-            audioSource.Play();
             Destroy(gameObject);
         }
     }

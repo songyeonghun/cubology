@@ -342,12 +342,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 66626923}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &79481956 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2341826050171381493, guid: 5a6d3f04606d0514ca3519a773ee1cc7,
-    type: 3}
-  m_PrefabInstance: {fileID: 215487420}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &139772904 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7233061969718662615, guid: 8970bd356b2f04c4f93faac28acafbef,
@@ -789,8 +783,29 @@ PrefabInstance:
       propertyPath: way
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4409924661666812539, guid: 5a6d3f04606d0514ca3519a773ee1cc7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409924661666812539, guid: 5a6d3f04606d0514ca3519a773ee1cc7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409924661666812539, guid: 5a6d3f04606d0514ca3519a773ee1cc7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a6d3f04606d0514ca3519a773ee1cc7, type: 3}
+--- !u!4 &215487421 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4409924661666812539, guid: 5a6d3f04606d0514ca3519a773ee1cc7,
+    type: 3}
+  m_PrefabInstance: {fileID: 215487420}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &222520767 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 258948707601331612, guid: 6dcb61ce8fdddba48b9857e86a56ccbf,
@@ -2724,6 +2739,7 @@ Transform:
   - {fileID: 436889351}
   - {fileID: 327225704}
   - {fileID: 381327519}
+  - {fileID: 215487421}
   - {fileID: 1472133797}
   - {fileID: 994445068}
   - {fileID: 1581221414}
@@ -2740,20 +2756,19 @@ Transform:
   - {fileID: 222520767}
   - {fileID: 413894959}
   - {fileID: 2058038219}
-  - {fileID: 79481956}
-  - {fileID: 813502350}
-  - {fileID: 1231162869}
-  - {fileID: 793811000}
-  - {fileID: 1738822125}
-  - {fileID: 635174460}
   - {fileID: 46606019}
   - {fileID: 1576772927}
+  - {fileID: 813502350}
   - {fileID: 369699947}
   - {fileID: 1564456009}
   - {fileID: 1526183679}
+  - {fileID: 1231162869}
   - {fileID: 268021057}
   - {fileID: 1622842920}
+  - {fileID: 793811000}
+  - {fileID: 1738822125}
   - {fileID: 193251723}
+  - {fileID: 635174460}
   - {fileID: 177623679}
   - {fileID: 66626924}
   m_Father: {fileID: 0}
