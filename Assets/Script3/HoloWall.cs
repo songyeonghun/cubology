@@ -21,15 +21,15 @@ public class HoloWall : MonoBehaviour
     {
         if(collision.gameObject.tag=="Spark")
         {
-            if (gameObject.layer == 14)
+            if (gameObject.layer == 21)
             {
-                gameObject.layer = 15;
+                gameObject.layer = 22;
                 GetComponent<SpriteRenderer>().sprite = off;
             }
             else
             {
                 GetComponent<SpriteRenderer>().sprite = on;
-                gameObject.layer = 14;
+                gameObject.layer = 21;
             }
         }
     }
