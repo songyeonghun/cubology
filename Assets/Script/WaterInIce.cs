@@ -5,11 +5,13 @@ using UnityEngine;
 public class WaterInIce : MonoBehaviour
 {
     public GameObject ice;
+    public AudioSource audioSource;
     int number;
     // Start is called before the first frame update
     void Start()
     {
         number = WaterPumpObj.number;
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -24,6 +26,7 @@ public class WaterInIce : MonoBehaviour
         //물과 냉기가 만나면 냉기가 사라지고얼음 생성
         if (collision.gameObject.tag == "IceGas")
         {
+            audioSource.Play();
             Destroy(gameObject);
             Instantiate(ice,transform.position, Quaternion.identity);
         }
