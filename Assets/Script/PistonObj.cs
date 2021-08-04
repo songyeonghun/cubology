@@ -15,11 +15,13 @@ public class PistonObj : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().sprite = Off;
             GetComponent<BoxCollider2D>().size = new Vector2(0.9f, 0.9f);
+            GetComponent<BoxCollider2D>().offset = new Vector2(0f, 0f);
         }
         else
         {
             GetComponent<SpriteRenderer>().sprite = On;
             GetComponent<BoxCollider2D>().size = new Vector2(1.8f, 0.9f);
+            GetComponent<BoxCollider2D>().offset = new Vector2(0.5f, 0f);
         }
     }
 
