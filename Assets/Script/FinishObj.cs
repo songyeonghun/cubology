@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class FinishObj : MonoBehaviour
 {
-    GameObject Spawn,Finish, Player;
+    GameObject Spawn, Finish, Player;
     public string nextstage;
     // Start is called before the first frame update
     void Start()
