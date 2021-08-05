@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PistonObj : MonoBehaviour
 {
-    public int onoff = 0;
+    public int onoff;
     float onDelay = 0.2f, timer = 0;
     public Sprite On, Off;
 
