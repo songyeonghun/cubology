@@ -11,7 +11,6 @@ public class BossMoving2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         StartCoroutine(Movestart());
     }
 
@@ -32,7 +31,7 @@ public class BossMoving2 : MonoBehaviour
     {
         while (time > 0)
         {
-            int random = Random.Range(0, 4);
+            int random = Random.Range(0, 5);
 
             yield return new WaitForSeconds(5f);
 
@@ -53,6 +52,9 @@ public class BossMoving2 : MonoBehaviour
                 case 3:
                     transform.Translate(0, -5, 0);
                     break;
+                    
+                case 5:
+
 
             }
         }
