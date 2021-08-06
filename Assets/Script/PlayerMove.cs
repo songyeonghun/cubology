@@ -19,10 +19,10 @@ public class PlayerMove : MonoBehaviour
         up = Physics2D.Raycast(transform.position, Vector2.up, 1.45f, LayerMask.GetMask("Cube"));
         right = Physics2D.Raycast(transform.position, Vector2.right, 1.45f, LayerMask.GetMask("Cube"));
         left = Physics2D.Raycast(transform.position, Vector2.left, 1.45f, LayerMask.GetMask("Cube"));
-        Hdown = Physics2D.Raycast(transform.position, Vector2.down, 1.45f, LayerMask.GetMask("HoloWallOff"));
-        Hup = Physics2D.Raycast(transform.position, Vector2.up, 1.45f, LayerMask.GetMask("HoloWallOff"));
-        Hright = Physics2D.Raycast(transform.position, Vector2.right, 1.45f, LayerMask.GetMask("HoloWallOff"));
-        Hleft = Physics2D.Raycast(transform.position, Vector2.left, 1.45f, LayerMask.GetMask("HoloWallOff"));
+        Hdown = Physics2D.Raycast(transform.position, Vector2.down, 1.45f, LayerMask.GetMask("HoloOff"));
+        Hup = Physics2D.Raycast(transform.position, Vector2.up, 1.45f, LayerMask.GetMask("HoloOff"));
+        Hright = Physics2D.Raycast(transform.position, Vector2.right, 1.45f, LayerMask.GetMask("HoloOff"));
+        Hleft = Physics2D.Raycast(transform.position, Vector2.left, 1.45f, LayerMask.GetMask("HoloOff"));
 
         if (timer>0.2f&&canMove == true&&Input.GetKeyDown("down") && down.collider == null && Hdown.collider == null)
         {
