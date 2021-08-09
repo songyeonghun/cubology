@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8485968007436526720}
   - component: {fileID: 8485968007436526727}
   - component: {fileID: 8485968007436526724}
+  - component: {fileID: 9006467305435533172}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -97,7 +98,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f0c70ff3ae4cc74d8ea09de1feb5168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goback: {x: 0, y: 0, z: 0}
 --- !u!61 &8485968007436526727
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -145,3 +145,11 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!81 &9006467305435533172
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8485968007436526723}
+  m_Enabled: 1
