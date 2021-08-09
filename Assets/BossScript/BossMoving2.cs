@@ -1,4 +1,4 @@
-uusing System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using static UnityEngine.Mathf;
@@ -14,7 +14,7 @@ public class BossMoving2 : MonoBehaviour
         StartCoroutine(Movestart());
     }
 
-    void Update()
+    void FixedUpdate()
     {
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
@@ -25,6 +25,8 @@ public class BossMoving2 : MonoBehaviour
         curPos.y = Clamp(curPos.y, -5, 5);
 
         transform.position = curPos;
+
+
     }
 
     IEnumerator Movestart()
@@ -52,13 +54,52 @@ public class BossMoving2 : MonoBehaviour
                 case 3:
                     transform.Translate(0, -5, 0);
                     break;
-                    
-                case 5:
 
+                case 4:
 
+                    while (time > 0)
+                    {
+                        int dash = Random.Range(0, 4);
+
+                        switch (dash)
+
+                        { 
+                        case 0:
+                            transform.Translate(5, 0, 0);
+                                yield return new WaitForSeconds(1f);
+                                transform.Translate(5, 0, 0);
+                                yield return new WaitForSeconds(1f);
+                                transform.Translate(5, 0, 0);
+                            break;
+
+                        case 1:
+                            transform.Translate(-5, 0, 0);
+                                yield return new WaitForSeconds(1f);
+                                transform.Translate(-5, 0, 0);
+                                yield return new WaitForSeconds(1f);
+                                transform.Translate(-5, 0, 0);
+                            break;
+
+                        case 2:
+                            transform.Translate(0, 5, 0);
+                                yield return new WaitForSeconds(1f);
+                                transform.Translate(0, 5, 0);
+                                yield return new WaitForSeconds(1f);
+                                transform.Translate(0, 5, 0);
+                            break;
+
+                        case 3:
+                            transform.Translate(0, -5, 0);
+                                yield return new WaitForSeconds(1f);
+                                transform.Translate(0, -5, 0);
+                                yield return new WaitForSeconds(1f);
+                                transform.Translate(0, -5, 0);
+                            break;
+                        }
+                    }
+                    break;
             }
         }
     }
-
 
 }

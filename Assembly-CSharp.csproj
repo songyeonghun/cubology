@@ -59,8 +59,10 @@
     <Compile Include="Assets\Script3\Eleclay.cs" />
     <Compile Include="Assets\Script\PistonObj.cs" />
     <Compile Include="Assets\Script\Option.cs" />
+    <Compile Include="Assets\BossScript\BossKey.cs" />
     <Compile Include="Assets\Script\FireBulletObj.cs" />
     <Compile Include="Assets\Script2\Seed.cs" />
+    <Compile Include="Assets\BossScript\BossKeycount.cs" />
     <Compile Include="Assets\BossScript\Stage1map.cs" />
     <Compile Include="Assets\Script\Dontdestroy.cs" />
     <Compile Include="Assets\gamedirector.cs" />
@@ -88,6 +90,7 @@
     <Compile Include="Assets\Script\ElectricObj.cs" />
     <Compile Include="Assets\Script3\OilDis.cs" />
     <Compile Include="Assets\Script3\sand.cs" />
+    <Compile Include="Assets\BossScript\stage2map.cs" />
     <Compile Include="Assets\BossScript\BossMoving.cs" />
     <Compile Include="Assets\Script3\HoloWall.cs" />
     <Compile Include="Assets\Script3\Jumpobj.cs" />
@@ -113,6 +116,7 @@
     <Compile Include="Assets\Script2\Soil.cs" />
     <Compile Include="Assets\Script3\IceObj.cs" />
     <Compile Include="Assets\Script\Sound.cs" />
+    <Compile Include="Assets\BossScript\Stage3map.cs" />
     <Compile Include="Assets\Script3\Sensor.cs" />
     <Compile Include="Assets\Script2\Plant.cs" />
     <Compile Include="Assets\Script\Stage.cs" />
@@ -120,16 +124,12 @@
     <Compile Include="Assets\Script\ElectricBtn.cs" />
     <Compile Include="Assets\Script2\sprout.cs" />
     <Compile Include="Assets\Script\WaterInIce.cs" />
+    <Compile Include="Assets\BossScript\BossMoving2.cs" />
     <Compile Include="Assets\Script\PlayerMove.cs" />
     <Compile Include="Assets\Script3\Cactusboom.cs" />
     <Compile Include="Assets\Script2\Planter.cs" />
     <Compile Include="Assets\Script\CannonObj.cs" />
     <Compile Include="Assets\Script2\BrokenTile.cs" />
-    <Compile Include="Assets\BossScript\BossKey.cs" />
-    <Compile Include="Assets\BossScript\BossKeycount.cs" />
-    <Compile Include="Assets\BossScript\stage2map.cs" />
-    <Compile Include="Assets\BossScript\Stage3map.cs" />
-    <Compile Include="Assets\BossScript\BossMoving2.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
