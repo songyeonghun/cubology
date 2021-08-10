@@ -4,21 +4,20 @@ using UnityEngine;
 
 public class Sensor : MonoBehaviour
 {
-    RaycastHit2D hit;
     public GameObject Sspark;
-    void Start()
-    {
-        
-    }
 
-    void Update()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        hit = Physics2D.Raycast(new Vector2(transform.position.x-0.5f,transform.position.y),Vector2.left,0.5f);
-
-        if (hit == true)
+        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Fire")
         {
-            Sspark.SetActive(true);
+                Sspark.SetActive(true);
         }
-        else Sspark.SetActive(false);
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Enemy"|| collision.gameObject.tag == "Fire")
+        {
+                Sspark.SetActive(false);
+        }
     }
 }

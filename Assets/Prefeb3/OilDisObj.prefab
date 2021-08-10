@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 780187415302269241}
   - component: {fileID: 3254287309469736970}
   - component: {fileID: 7215528227442366924}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: OilDisObj
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,7 +98,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Oil: {fileID: 3675046231330780975, guid: 85bbd8478124c364795691e4c4085d20, type: 3}
-  onoff: 0
   way: 0
 --- !u!50 &3254287309469736970
 Rigidbody2D:
