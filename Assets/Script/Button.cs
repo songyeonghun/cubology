@@ -6,11 +6,18 @@ public class Button : MonoBehaviour
 {
     public GameObject Buttonspark;
     public Sprite On,Off;
+    public AudioSource audioSource;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
+            audioSource.Play();
             Buttonspark.SetActive(true);
             GetComponent<SpriteRenderer>().sprite = On;
         }
@@ -19,6 +26,7 @@ public class Button : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            audioSource.Stop();
             Buttonspark.SetActive(false);
             GetComponent<SpriteRenderer>().sprite = Off;
         }

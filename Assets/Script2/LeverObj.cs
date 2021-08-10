@@ -12,6 +12,12 @@ public class LeverObj : MonoBehaviour
     public GameObject Leverspark3;
     public Sprite off;
     public Sprite on;
+    public AudioSource audioSource;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -21,6 +27,7 @@ public class LeverObj : MonoBehaviour
         }
         if (onoff % 2 == 0)
         {
+            audioSource.Stop();
             Leverspark.SetActive(false);
             Leverspark1.SetActive(false);
             Leverspark2.SetActive(false);
@@ -29,6 +36,7 @@ public class LeverObj : MonoBehaviour
         }
         else
         {
+            audioSource.Play();
             Leverspark.SetActive(true);
             Leverspark1.SetActive(true);
             Leverspark2.SetActive(true);

@@ -8,6 +8,7 @@ public class FlameObj : MonoBehaviour
     float onDelay=0.2f, timer=0;
     public GameObject fire1, fire2, fire3;
     public AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,7 +30,6 @@ public class FlameObj : MonoBehaviour
         if (onoff % 2 == 1)
         {
             audioSource.Play();
-            audioSource.loop = true;
             fire1.SetActive(true);
             fire2.SetActive(true);
             fire3.SetActive(true);

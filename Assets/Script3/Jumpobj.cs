@@ -6,11 +6,13 @@ public class Jumpobj : MonoBehaviour
 {
     public GameObject Player;
     public int way = 1;
+    public AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
         Player = GameObject.Find("Player");
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -22,7 +24,8 @@ public class Jumpobj : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            switch(way)
+            audioSource.Play();
+            switch (way)
             {
                 case 1:
                     Player.transform.Translate(2, 0, 0);

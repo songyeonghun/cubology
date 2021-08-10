@@ -8,10 +8,12 @@ public class Seed : MonoBehaviour
     bool isFire = true;
     Vector3 direction;
     public float speed = 10f;
+    public AudioSource audioSource;
 
 
     public void Fire(Vector3 dir)
     {
+        audioSource = GetComponent<AudioSource>();
         direction = dir;
         isFire = true;
     }
@@ -20,6 +22,7 @@ public class Seed : MonoBehaviour
     {
         if (isFire)
         {
+            audioSource.Play();
             transform.Translate(direction * Time.deltaTime * speed);
         }
     }

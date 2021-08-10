@@ -7,10 +7,11 @@ public class OilDis : MonoBehaviour
     public GameObject Oil;
     public int onoff = 0, way = 0;
     RaycastHit2D hit;
+    public AudioSource audioSource;
 
     void Start()
     {
-
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -18,6 +19,7 @@ public class OilDis : MonoBehaviour
         //on되면
         if (onoff == 1)
         {
+            audioSource.Play();
             //설정한 방향으로 생성
             switch (way)
             {
