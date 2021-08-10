@@ -6,18 +6,18 @@ public class Sensor : MonoBehaviour
 {
     public GameObject Sspark;
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Fire")
         {
-                Sspark.SetActive(true);
+            Sspark.SetActive(true);
         }
     }
-    private void OnCollisionExit2D(Collision2D collision)
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Enemy"|| collision.gameObject.tag == "Fire")
+        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Fire")
         {
-                Sspark.SetActive(false);
+            Sspark.SetActive(false);
         }
     }
 }

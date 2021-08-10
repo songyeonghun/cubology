@@ -5,12 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class FinishObj : MonoBehaviour
 {
-    GameObject Spawn, Finish, Player;
+    GameObject Spawn, Player;
     public string nextstage;
     // Start is called before the first frame update
     void Start()
     {
-        Finish = GameObject.Find("Finish");
         Player = GameObject.Find("Player");
         Spawn = GameObject.Find("Spawn");
         PlayerSpawn();

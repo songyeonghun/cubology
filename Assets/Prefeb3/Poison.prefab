@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 6556018256298835846}
   - component: {fileID: -3174505135621273818}
   - component: {fileID: -8734691113544560670}
-  m_Layer: 0
+  m_Layer: 24
   m_Name: Poison
-  m_TagString: Untagged
+  m_TagString: Poison
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,7 +98,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  Acid: {fileID: 8709771478893110758, guid: 8970bd356b2f04c4f93faac28acafbef, type: 3}
 --- !u!50 &-3174505135621273818
 Rigidbody2D:
   serializedVersion: 4

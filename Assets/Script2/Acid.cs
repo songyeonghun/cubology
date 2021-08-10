@@ -5,25 +5,16 @@ using UnityEngine;
 
 public class Acid : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public GameObject Water;
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag=="Enemy")
-        {
-            return;
-        }
         if(collision.gameObject.tag=="leaf")
         {
+            Destroy(gameObject);
+        }
+        if (collision.gameObject.tag == "SandWater")
+        {
+            Instantiate(Water,transform.position,Quaternion.identity);
             Destroy(gameObject);
         }
     }

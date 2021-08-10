@@ -23,26 +23,25 @@ public class segwayX : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         rbody.velocity = new Vector3(speed, 0);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        speed = -speed;
-        if (collision.gameObject.tag == "Wall" && collision.gameObject.tag != "Enemy" && collision.gameObject.tag != "Flame")
-        {
-            distance++;
-        }
-        if (distance % 2 == 0)
-        {
-            GetComponent<SpriteRenderer>().sprite = segwayright;
-        }
-        else
-        {
-            GetComponent<SpriteRenderer>().sprite = segwayleft;
-        }
-
+            speed = -speed;
+            if (collision.gameObject.tag == "Wall" && collision.gameObject.tag != "Enemy")
+            {
+                distance++;
+            }
+            if (distance % 2 == 0)
+            {
+                GetComponent<SpriteRenderer>().sprite = segwayright;
+            }
+            else
+            {
+                GetComponent<SpriteRenderer>().sprite = segwayleft;
+            }
     }
 }

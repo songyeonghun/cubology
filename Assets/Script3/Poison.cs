@@ -7,7 +7,6 @@ public class Poison : MonoBehaviour
     bool isFire = true;
     Vector3 direction;
     public float speed = 5f;
-    public GameObject Acid;
 
     public void Fire(Vector3 dir)
     {
@@ -25,10 +24,6 @@ public class Poison : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag=="Water")
-        {
-            Instantiate(Acid, transform.position, Quaternion.identity);
-        }
         Destroy(gameObject);
     }
 

@@ -27,7 +27,7 @@ public class sandbullet : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag != "plant" && collision.gameObject.tag != "Spark" && collision.gameObject.tag != "Player")
+        if (collision.gameObject.tag == "Wall")
         {
             Destroy(gameObject);
             Instantiate(Sandplant, new Vector3(transform.position.x, transform.position.y, 0), Quaternion.identity);
