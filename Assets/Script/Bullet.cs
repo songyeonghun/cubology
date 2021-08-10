@@ -14,13 +14,7 @@ public class Bullet : MonoBehaviour
         direction = dir;
         isFire = true;
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
         if (isFire)
@@ -35,8 +29,12 @@ public class Bullet : MonoBehaviour
         {
             var bullet = Instantiate(fireboll, transform.position, Quaternion.identity).GetComponent<FireBulletObj>();
             bullet.Fire(direction);
+            Destroy(gameObject);
         }
-        Destroy(gameObject);
+        if (collision.gameObject.tag == "Wall")
+        {
+            Destroy(gameObject);
+        }
     }
 
 }
