@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WaterInIce : MonoBehaviour
 {
-    public GameObject ice;
+    public GameObject ice,Acid;
     int number;
     // Start is called before the first frame update
     void Start()
@@ -24,19 +24,17 @@ public class WaterInIce : MonoBehaviour
         //물과 냉기가 만나면 냉기가 사라지고얼음 생성
         if (collision.gameObject.tag == "IceGas")
         {
-            Destroy(gameObject);
             Instantiate(ice,transform.position, Quaternion.identity);
         }
         else if(collision.gameObject.tag == "iceleaf")
         {
-            Destroy(gameObject);
             Instantiate(ice, transform.position, Quaternion.identity);
         }
-        //플레이어말고 다른 오브젝트랑 닿으면 생성x
-        if (number != 1)
-            Destroy(gameObject);
-        if(number == 1 && collision.gameObject.tag != "Water")
-            Destroy(gameObject);
+        else if (collision.gameObject.tag == "Poison")
+        {
+            Instantiate(Acid, transform.position, Quaternion.identity);
+        }
+        Destroy(gameObject);
 
     }
 

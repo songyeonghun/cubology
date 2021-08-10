@@ -4,14 +4,9 @@ using UnityEngine;
 
 public class PoisonCanon : MonoBehaviour
 {
-    public GameObject BulletPrefeb;
+    public GameObject BulletPrefeb, BullletSpawn;
     public float delay = 4f, timer = 0, onDelay = 0.2f;
     public int onoff = 0;
-
-    void Start()
-    {
-
-    }
 
     void Update()
     {
@@ -20,7 +15,7 @@ public class PoisonCanon : MonoBehaviour
             timer += Time.deltaTime;
             if (timer >= delay)
             {
-                var bullet = Instantiate(BulletPrefeb, new Vector2(transform.position.x+1,transform.position.y), Quaternion.identity).GetComponent<Poison>();
+                var bullet = Instantiate(BulletPrefeb, BullletSpawn.transform.position, Quaternion.identity).GetComponent<Poison>();
                 bullet.Fire(transform.right);
                 timer = 0f;
             }
