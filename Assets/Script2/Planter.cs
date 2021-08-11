@@ -9,10 +9,18 @@ public class Planter : MonoBehaviour
     public Sprite planterbrk;
     public GameObject SeedPrefeb, BullletSpawn, BullletSpawn1, BullletSpawn2;
     int work = 0;
+    public AudioSource audioSource;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (work==0&&collision.gameObject.tag == "Spark")
         {
+            audioSource.Play();
             GetComponent<SpriteRenderer>().sprite = planteron;
             var bullet = Instantiate(SeedPrefeb, BullletSpawn.transform.position, Quaternion.identity).GetComponent<Seed>();
             bullet.Fire(transform.right);
