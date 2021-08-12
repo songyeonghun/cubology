@@ -7,12 +7,14 @@ public class IceSprayObj : MonoBehaviour
     public GameObject IceGas;
     public int onoff = 0, way = 0;
     RaycastHit2D hit;
+    public AudioSource audioSource;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         //오프일떄 전기와 닿으면
         if (collision.gameObject.tag == "Spark")
         {
+            audioSource.Play();
             switch (way)
             {
                 case 0://오른쪽

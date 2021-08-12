@@ -5,17 +5,6 @@ using UnityEngine;
 public class SpikeObj : MonoBehaviour
 {
     public GameObject spike;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     //전류와 닿으면 스파이크나옴
     private void OnCollisionEnter2D(Collision2D collision)
