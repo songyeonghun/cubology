@@ -8,10 +8,7 @@ public class PoisonCanon : MonoBehaviour
     public float delay = 4f, timer = 0, onDelay = 0.2f;
     public int onoff = 0;
     public AudioSource audioSource;
-<<<<<<< HEAD
-=======
 
->>>>>>> 8d564a5a2231f85b8dd980ee4d6c13df8b042463
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -23,15 +20,9 @@ public class PoisonCanon : MonoBehaviour
         {
             timer += Time.deltaTime;
             if (timer >= delay)
-<<<<<<< HEAD
             {
                 audioSource.Play();
                 var bullet = Instantiate(BulletPrefeb, BullletSpawn.transform.position, Quaternion.identity).GetComponent<Poison>();
-=======
-            { 
-                audioSource.Play();
-                var bullet = Instantiate(BulletPrefeb, BullletSpawn.transform.position, Quaternion.identity).GetComponent<Poison>();;
->>>>>>> 8d564a5a2231f85b8dd980ee4d6c13df8b042463
                 bullet.Fire(transform.right);
                 timer = 0f;
             }
