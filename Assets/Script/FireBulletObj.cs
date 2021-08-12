@@ -7,6 +7,7 @@ public class FireBulletObj : MonoBehaviour
     bool isFire = true;
     Vector3 direction;
     public float speed = 10f;
+    public AudioSource audioSource;
 
     public void Fire(Vector3 dir)
     {
@@ -16,7 +17,7 @@ public class FireBulletObj : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -24,6 +25,7 @@ public class FireBulletObj : MonoBehaviour
     {
         if (isFire)
         {
+            audioSource.Play();
             transform.Translate(direction * Time.deltaTime * speed);
         }
     }

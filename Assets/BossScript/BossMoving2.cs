@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using static UnityEngine.Mathf;
+using UnityEngine.UI;
 
 public class BossMoving2 : MonoBehaviour
 {
     public int time = 1;
     public float speed = 3.0f;
+    public Sprite left;
+    public Sprite stop;
 
     // Start is called before the first frame update
     void Start()
@@ -44,7 +47,9 @@ public class BossMoving2 : MonoBehaviour
                     break;
 
                 case 1:
+                    GetComponent<SpriteRenderer>().sprite = left;
                     transform.Translate(-5, 0, 0);
+                    GetComponent<SpriteRenderer>().sprite = stop;
                     break;
 
                 case 2:

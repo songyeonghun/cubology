@@ -72,12 +72,12 @@ public class PlayerMove : MonoBehaviour
 
         if (collision.gameObject.tag == "IceTile")
         {
+            audioSource.Play();
             switch (ice)
             {
                 case 1:
                     if (down.collider == null && Hdown.collider == null)
                     {
-                        audioSource.Play();
                         transform.Translate(0, -1, 0);
                     }
                     break;
@@ -85,21 +85,18 @@ public class PlayerMove : MonoBehaviour
                 case 2:
                     if (up.collider == null && Hup.collider == null)
                     {
-                        audioSource.Play();
                         transform.Translate(0, 1, 0);
                     }
                     break;
                 case 3:
                     if (left.collider == null && Hleft.collider == null)
                     {
-                        audioSource.Play();
                         transform.Translate(-1, 0, 0);
                     }
                     break;
                 case 4:
                     if (right.collider == null && Hright.collider == null)
                     {
-                        audioSource.Play();
                         transform.Translate(1, 0, 0);
                     }
                     break;

@@ -22,8 +22,21 @@ public class WaterInIce : MonoBehaviour
         {
 
             audioSource.Play();
+<<<<<<< HEAD
             Instantiate(ice,transform.position, Quaternion.identity);
         }
+=======
+            Destroy(gameObject);
+            Instantiate(ice,transform.position, Quaternion.identity);
+        }
+        else if(collision.gameObject.tag == "iceleaf")
+        {
+
+            audioSource.Play();
+            Destroy(gameObject);
+            Instantiate(ice, transform.position, Quaternion.identity);
+        }
+>>>>>>> 8d564a5a2231f85b8dd980ee4d6c13df8b042463
         else if (collision.gameObject.tag == "Poison")
         {
             Instantiate(Acid, transform.position, Quaternion.identity);
