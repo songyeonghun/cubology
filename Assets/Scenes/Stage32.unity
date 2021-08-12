@@ -1492,7 +1492,6 @@ GameObject:
   m_Component:
   - component: {fileID: 906538667}
   - component: {fileID: 906538666}
-  - component: {fileID: 906538665}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -1500,14 +1499,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &906538665
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 906538664}
-  m_Enabled: 1
 --- !u!20 &906538666
 Camera:
   m_ObjectHideFlags: 0
@@ -4900,8 +4891,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 4eb7613b99ac0084c9e188bb800df144, type: 3}
 --- !u!4 &1964698378 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3897846600090359438, guid: 4eb7613b99ac0084c9e188bb800df144,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 1964698377}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2070367322

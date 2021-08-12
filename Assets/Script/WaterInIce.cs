@@ -18,29 +18,11 @@ public class WaterInIce : MonoBehaviour
     {
 
         //물과 냉기가 만나면 냉기가 사라지고얼음 생성
-        if (collision.gameObject.tag == "IceGas")
+        if (collision.gameObject.tag == "IceGas"|| collision.gameObject.tag == "iceleaf")
         {
 
             audioSource.Play();
-            Destroy(gameObject);
-<<<<<<< HEAD
-=======
-
->>>>>>> 098f26584d77c867828d36bbc67fa91c0a08e45a
             Instantiate(ice,transform.position, Quaternion.identity);
-        }
-        else if(collision.gameObject.tag == "iceleaf")
-        {
-<<<<<<< HEAD
-            audioSource.Play();
-            Destroy(gameObject);
-=======
-
-            audioSource.Play();
-            Destroy(gameObject);
-
->>>>>>> 098f26584d77c867828d36bbc67fa91c0a08e45a
-            Instantiate(ice, transform.position, Quaternion.identity);
         }
         else if (collision.gameObject.tag == "Poison")
         {
