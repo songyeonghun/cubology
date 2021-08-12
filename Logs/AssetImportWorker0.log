@@ -15,11 +15,11 @@ C:/Users/신주현/Documents/GitHub/cube
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50942
+58174
 Successfully changed project path to: C:/Users/신주현/Documents/GitHub/cube
 C:/Users/신주현/Documents/GitHub/cube
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 120.90 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 83.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,345 +35,177 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005497 seconds.
+Registered in 0.003503 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 98.26 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 63.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.661 seconds
+- Completed reload, in  1.129 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012842 seconds.
+Registered in 0.009049 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.210 seconds
+- Completed reload, in  1.402 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2014 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 82.2 MB.
 System memory in use after: 82.3 MB.
 
 Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 2420.
-Total: 4.816600 ms (FindLiveObjects: 0.204300 ms CreateObjectMapping: 0.062900 ms MarkObjects: 4.458100 ms  DeleteObjects: 0.089700 ms)
+Total: 10.080400 ms (FindLiveObjects: 0.286100 ms CreateObjectMapping: 0.131500 ms MarkObjects: 9.558100 ms  DeleteObjects: 0.102300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/TestStage3.unity
-  artifactKey: Guid(de697fe0c2249d84f8b53a911416cb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestStage3.unity using Guid(de697fe0c2249d84f8b53a911416cb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df479a9b02210b5b4822c341e16c507') in 0.017573 seconds
-  Import took 0.023946 seconds .
+  path: Assets/Scenes/SelectStage.unity
+  artifactKey: Guid(565c6c55494514445b684429be752d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SelectStage.unity using Guid(565c6c55494514445b684429be752d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a5658489b356eaebd1adf0916076d3') in 0.017619 seconds
+  Import took 0.020804 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013325 seconds.
+Registered in 0.006767 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.091 seconds
+- Completed reload, in  1.187 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.1 MB.
+System memory in use before: 82.0 MB.
 System memory in use after: 82.2 MB.
 
 Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2423.
-Total: 12.155600 ms (FindLiveObjects: 0.535800 ms CreateObjectMapping: 0.228300 ms MarkObjects: 11.309600 ms  DeleteObjects: 0.078700 ms)
+Total: 7.196500 ms (FindLiveObjects: 0.269100 ms CreateObjectMapping: 0.208900 ms MarkObjects: 6.645700 ms  DeleteObjects: 0.068700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.017063 seconds.
+Registered in 0.027092 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.069 seconds
+- Completed reload, in  3.385 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 82.1 MB.
 System memory in use after: 82.2 MB.
 
 Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2426.
-Total: 8.777700 ms (FindLiveObjects: 0.731800 ms CreateObjectMapping: 0.276200 ms MarkObjects: 7.724500 ms  DeleteObjects: 0.041700 ms)
+Total: 13.600500 ms (FindLiveObjects: 1.194400 ms CreateObjectMapping: 0.210800 ms MarkObjects: 12.106400 ms  DeleteObjects: 0.082900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 103.615415 seconds.
-  path: Assets/Script/PlayerMove.cs
-  artifactKey: Guid(2f0c70ff3ae4cc74d8ea09de1feb5168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/PlayerMove.cs using Guid(2f0c70ff3ae4cc74d8ea09de1feb5168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d72624abd15cf92e0c3dcb6a522b4f') in 0.052535 seconds
-  Import took 0.057607 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010262 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.730 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.1 MB.
-System memory in use after: 82.3 MB.
-
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2429.
-Total: 5.313200 ms (FindLiveObjects: 0.238700 ms CreateObjectMapping: 0.047000 ms MarkObjects: 4.995400 ms  DeleteObjects: 0.030600 ms)
+  Time since last request: 215.943545 seconds.
+  path: Assets/Scenes/sound.unity
+  artifactKey: Guid(25ebd9bdc0f50834a980f39e90f0dfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/sound.unity using Guid(25ebd9bdc0f50834a980f39e90f0dfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a157a7fec681bcffdd1ff11e62cae22') in 0.021774 seconds
+  Import took 0.028417 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 87.139405 seconds.
-  path: Assets/Script/PlayerMove.cs
-  artifactKey: Guid(2f0c70ff3ae4cc74d8ea09de1feb5168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/PlayerMove.cs using Guid(2f0c70ff3ae4cc74d8ea09de1feb5168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5fef8403f5cf5f55724263f8091200') in 0.007705 seconds
-  Import took 0.012631 seconds .
+  Time since last request: 5.471199 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(186a18f2c294edc44b2574056113e5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(186a18f2c294edc44b2574056113e5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e57369993b0269c471cf30a3e1abafc') in 0.004097 seconds
+  Import took 0.009753 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.048892 seconds.
-  path: Assets/Script/PlayerMove.cs
-  artifactKey: Guid(2f0c70ff3ae4cc74d8ea09de1feb5168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/PlayerMove.cs using Guid(2f0c70ff3ae4cc74d8ea09de1feb5168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5fef8403f5cf5f55724263f8091200') in 0.003624 seconds
-  Import took 0.011157 seconds .
+  Time since last request: 28.560950 seconds.
+  path: Assets/Scenes/SelectStage4.unity
+  artifactKey: Guid(f1ae2aa48a9506e4183d76ccf078759d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SelectStage4.unity using Guid(f1ae2aa48a9506e4183d76ccf078759d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d2e176fadc3da7ebd17222b52baaf9') in 0.004927 seconds
+  Import took 0.011389 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 95.340574 seconds.
-  path: Assets/select stage/01.png
-  artifactKey: Guid(7c57c8afb3aa75b4bb608103c5fa6714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/select stage/01.png using Guid(7c57c8afb3aa75b4bb608103c5fa6714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534ff083b594efb1d41528d76a45ffca') in 0.328955 seconds
-  Import took 0.334154 seconds .
+  Time since last request: 0.001407 seconds.
+  path: Assets/Scenes/SelectStage4.unity
+  artifactKey: Guid(f1ae2aa48a9506e4183d76ccf078759d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SelectStage4.unity using Guid(f1ae2aa48a9506e4183d76ccf078759d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d2e176fadc3da7ebd17222b52baaf9') in 0.003855 seconds
+  Import took 0.008417 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/select stage/02.png
-  artifactKey: Guid(d005e5498f7231d4ba0aa0e02f0db24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/select stage/02.png using Guid(d005e5498f7231d4ba0aa0e02f0db24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7344c9f868bdf3e2d31c8422521d9c74') in 0.059633 seconds
-  Import took 0.066709 seconds .
+  Time since last request: 36.950218 seconds.
+  path: Assets/Scenes/SelectStage3.unity
+  artifactKey: Guid(23463cadf4f50834c84a13ac1d642b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SelectStage3.unity using Guid(23463cadf4f50834c84a13ac1d642b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6291e76859671978d70d409de6c9b890') in 0.003393 seconds
+  Import took 0.012127 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/select stage/06.png
-  artifactKey: Guid(b84db29997d2f7f42a75d3feeb6f83e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/select stage/06.png using Guid(b84db29997d2f7f42a75d3feeb6f83e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cab639755ae24133b819a0f66bf4a73') in 0.060918 seconds
-  Import took 0.069961 seconds .
+  Time since last request: 28.766473 seconds.
+  path: Assets/Scenes/SelectStage4.unity
+  artifactKey: Guid(f1ae2aa48a9506e4183d76ccf078759d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SelectStage4.unity using Guid(f1ae2aa48a9506e4183d76ccf078759d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565aa93836e0c7efa717cf91487eece4') in 0.003822 seconds
+  Import took 0.008568 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/select stage/02.png
-  artifactKey: Guid(d005e5498f7231d4ba0aa0e02f0db24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/select stage/02.png using Guid(d005e5498f7231d4ba0aa0e02f0db24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7344c9f868bdf3e2d31c8422521d9c74') in 0.049268 seconds
-  Import took 0.055407 seconds .
+  Time since last request: 62.292426 seconds.
+  path: Assets/BossSprite/boss select.png
+  artifactKey: Guid(d24c3d79d35df9e45ae20e1914e30dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossSprite/boss select.png using Guid(d24c3d79d35df9e45ae20e1914e30dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08688059e0317a7660cd57b973ec55a') in 0.122435 seconds
+  Import took 0.126400 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/select stage/08.png
-  artifactKey: Guid(e0f0d3490da1d73469fca0d4fd83fcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/select stage/08.png using Guid(e0f0d3490da1d73469fca0d4fd83fcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb0770651df27f2775f48382ab22d4f') in 0.059613 seconds
-  Import took 0.065346 seconds .
+  Time since last request: 43.684972 seconds.
+  path: Assets/BossSprite/boss select.png
+  artifactKey: Guid(d24c3d79d35df9e45ae20e1914e30dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossSprite/boss select.png using Guid(d24c3d79d35df9e45ae20e1914e30dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0e84caa5c6c7a266dc513b55e985e5') in 0.208699 seconds
+  Import took 0.215177 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/select stage/04.png
-  artifactKey: Guid(cb90dbe2810777844b79ddeb9133b041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/select stage/04.png using Guid(cb90dbe2810777844b79ddeb9133b041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef3f7f4d402bfaba5b459fbec1c5f40') in 0.050861 seconds
-  Import took 0.058678 seconds .
+  Time since last request: 114.954700 seconds.
+  path: Assets/BossStage
+  artifactKey: Guid(7f6f93d9fdc89c64a9926b39708a9851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossStage using Guid(7f6f93d9fdc89c64a9926b39708a9851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733d3c58dca670711e097ee464efdd45') in 0.003406 seconds
+  Import took 0.008738 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/select stage/03.png
-  artifactKey: Guid(73b9be6b685d2234387ba6b8c39d4df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/select stage/03.png using Guid(73b9be6b685d2234387ba6b8c39d4df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c3ef84c7b67b4a938bbccc2b99124d') in 0.052214 seconds
-  Import took 0.058573 seconds .
+  Time since last request: 7.701596 seconds.
+  path: Assets/BossStage/Sorry.unity
+  artifactKey: Guid(4cfa0f52dde1bd946b8237b7c1b51e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossStage/Sorry.unity using Guid(4cfa0f52dde1bd946b8237b7c1b51e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c748c0bcf6daea04289a7bee0610f9c3') in 0.004672 seconds
+  Import took 0.010263 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/select stage/05.png
-  artifactKey: Guid(742b4cbbe6e5ead439981ff50195fe61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/select stage/05.png using Guid(742b4cbbe6e5ead439981ff50195fe61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4992f0d5e040dcaf8d64214e4aeacef9') in 0.057387 seconds
-  Import took 0.064602 seconds .
+  Time since last request: 124.434634 seconds.
+  path: Assets/BossPrefeb/1-4.prefab
+  artifactKey: Guid(e49449d899fec2349943feead1439e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossPrefeb/1-4.prefab using Guid(e49449d899fec2349943feead1439e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Fire' used by the Animation component 'Fire1' must be marked as Legacy.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/select stage/07.png
-  artifactKey: Guid(93780d8e0cfebaf4eb068f0793eecce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/select stage/07.png using Guid(93780d8e0cfebaf4eb068f0793eecce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8407b09271d66b9f0b505e1b419617fb') in 0.055491 seconds
-  Import took 0.063535 seconds .
+The AnimationClip 'Fire' used by the Animation component 'Fire3' must be marked as Legacy.
 
-========================================================================
-Received Import Request.
-  Time since last request: 25.803942 seconds.
-  path: Assets/Script2/ElecStone.cs
-  artifactKey: Guid(0227e3d0088a31f45bbc6b09ef3b77ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script2/ElecStone.cs using Guid(0227e3d0088a31f45bbc6b09ef3b77ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821b45108af8c2ca4850fb6f824cd811') in 0.006143 seconds
-  Import took 0.012830 seconds .
+The AnimationClip 'Fire' used by the Animation component 'Fire2' must be marked as Legacy.
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006731 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.761 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.1 MB.
-System memory in use after: 85.2 MB.
-
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2443.
-Total: 6.300500 ms (FindLiveObjects: 0.281700 ms CreateObjectMapping: 0.123300 ms MarkObjects: 5.836500 ms  DeleteObjects: 0.057100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019485 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.786 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.1 MB.
-System memory in use after: 85.2 MB.
-
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2446.
-Total: 14.548700 ms (FindLiveObjects: 0.342800 ms CreateObjectMapping: 0.182300 ms MarkObjects: 13.935100 ms  DeleteObjects: 0.083500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 99.506224 seconds.
-  path: Assets/Prefeb2/Elecstone.prefab
-  artifactKey: Guid(97b4400360d708e48a1734fa9ef5ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefeb2/Elecstone.prefab using Guid(97b4400360d708e48a1734fa9ef5ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a841eadde7f0f4057ade15c2b05fb30') in 0.091534 seconds
-  Import took 0.154067 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012533 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.940 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.2 MB.
-System memory in use after: 85.3 MB.
-
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2453.
-Total: 5.014300 ms (FindLiveObjects: 0.268600 ms CreateObjectMapping: 0.089700 ms MarkObjects: 4.624600 ms  DeleteObjects: 0.030300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015967 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.188 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.2 MB.
-System memory in use after: 85.3 MB.
-
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2456.
-Total: 8.549500 ms (FindLiveObjects: 0.478000 ms CreateObjectMapping: 0.149900 ms MarkObjects: 7.860100 ms  DeleteObjects: 0.059500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015863 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.822 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.2 MB.
-System memory in use after: 85.3 MB.
-
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2459.
-Total: 5.944300 ms (FindLiveObjects: 0.252800 ms CreateObjectMapping: 0.090100 ms MarkObjects: 5.566100 ms  DeleteObjects: 0.033700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013645 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.342 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.2 MB.
-System memory in use after: 85.3 MB.
-
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2462.
-Total: 8.989200 ms (FindLiveObjects: 0.416700 ms CreateObjectMapping: 0.185000 ms MarkObjects: 8.329800 ms  DeleteObjects: 0.051100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 204.924142 seconds.
-  path: Assets/Prefeb/Electric.prefab
-  artifactKey: Guid(302444d734f89fd49b040c3818b8d27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefeb/Electric.prefab using Guid(302444d734f89fd49b040c3818b8d27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
-
-The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
+The AnimationClip 'Fire' used by the Animation component 'Fire1' must be marked as Legacy.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
 UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
@@ -386,65 +218,7 @@ UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityE
 
 [C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
 
- -> (artifact id: '31a4d9880bd19a38d7e98cb0b2f6708c') in 0.079834 seconds
-  Import took 0.086361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.389847 seconds.
-  path: Assets/Script/FireBulletObj.cs
-  artifactKey: Guid(45cea272932039144af1873b1d2428b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/FireBulletObj.cs using Guid(45cea272932039144af1873b1d2428b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e228a0d6fa4d8e8f655ec8ee99f87427') in 0.008014 seconds
-  Import took 0.014418 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009106 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.771 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.3 MB.
-System memory in use after: 85.4 MB.
-
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2466.
-Total: 4.679100 ms (FindLiveObjects: 0.289400 ms CreateObjectMapping: 0.102900 ms MarkObjects: 4.250800 ms  DeleteObjects: 0.034400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019907 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.747 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.3 MB.
-System memory in use after: 85.4 MB.
-
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2469.
-Total: 4.396200 ms (FindLiveObjects: 0.224400 ms CreateObjectMapping: 0.111600 ms MarkObjects: 4.019400 ms  DeleteObjects: 0.038700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 71.910616 seconds.
-  path: Assets/BossPrefeb/1-2.prefab
-  artifactKey: Guid(f3acbfb057cf3cd4a943829d6fc9032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BossPrefeb/1-2.prefab using Guid(f3acbfb057cf3cd4a943829d6fc9032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
-
-The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
+The AnimationClip 'Fire' used by the Animation component 'Fire3' must be marked as Legacy.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
 UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
@@ -457,17 +231,7 @@ UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityE
 
 [C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
 
- -> (artifact id: 'b4866dc046ad72a7dca7e04d32ded53d') in 0.093596 seconds
-  Import took 0.099320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/BossPrefeb/2-1.prefab
-  artifactKey: Guid(ce7926aaa2f741f4bae271d84f41f3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BossPrefeb/2-1.prefab using Guid(ce7926aaa2f741f4bae271d84f41f3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
-
-The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
+The AnimationClip 'Fire' used by the Animation component 'Fire2' must be marked as Legacy.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
 UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
@@ -480,37 +244,12 @@ UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityE
 
 [C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
 
- -> (artifact id: '8aafd6875df6507c83acc9f4a0f58348') in 0.061888 seconds
-  Import took 0.066850 seconds .
+ -> (artifact id: '879f8d87667c636cb2a861a49c96fb43') in 0.074993 seconds
+  Import took 0.083180 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/BossPrefeb/3-2.prefab
-  artifactKey: Guid(31d21892437a7564794ef443d7d3d613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BossPrefeb/3-2.prefab using Guid(31d21892437a7564794ef443d7d3d613) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
-
-The AnimationClip 'Fire' used by the Animation component 'Fire' must be marked as Legacy.
-
-The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
- -> (artifact id: '3ec71421cd361ba8b3d92f435fbba862') in 0.216946 seconds
-  Import took 0.221141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
+  Time since last request: 0.000511 seconds.
   path: Assets/BossPrefeb/1-6.prefab
   artifactKey: Guid(19f5bf459f6dec649ae7bac6f94e1442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/BossPrefeb/1-6.prefab using Guid(19f5bf459f6dec649ae7bac6f94e1442) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
@@ -543,465 +282,12 @@ UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityE
 
 [C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
 
- -> (artifact id: '3573c2724898c9297e18436bad67b994') in 0.032668 seconds
-  Import took 0.037851 seconds .
+ -> (artifact id: '946698d8c366d1371c5c52a167ce623f') in 0.036926 seconds
+  Import took 0.043432 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/BossPrefeb/2-3.prefab
-  artifactKey: Guid(62ff3558f9ace4640b51ba883a6391a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BossPrefeb/2-3.prefab using Guid(62ff3558f9ace4640b51ba883a6391a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
-
-The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
- -> (artifact id: '5331af99923a963f76515c9a8e174af9') in 0.032125 seconds
-  Import took 0.038737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/BossPrefeb/3-4.prefab
-  artifactKey: Guid(952b1f6c77b0be84f9a990543a681521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BossPrefeb/3-4.prefab using Guid(952b1f6c77b0be84f9a990543a681521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df862e2239a9a9be39dbe479732aefc4') in 0.043278 seconds
-  Import took 0.050250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/BossPrefeb/1-9.prefab
-  artifactKey: Guid(931ef2a6ff4e1164faf5b37c50cec805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BossPrefeb/1-9.prefab using Guid(931ef2a6ff4e1164faf5b37c50cec805) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Fire' used by the Animation component 'Fire1' must be marked as Legacy.
-
-The AnimationClip 'Fire' used by the Animation component 'Fire1' must be marked as Legacy.
-
-The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
-
-The AnimationClip 'Fire' used by the Animation component 'Fire2' must be marked as Legacy.
-
-The AnimationClip 'Fire' used by the Animation component 'Fire2' must be marked as Legacy.
-
-The AnimationClip 'Fire' used by the Animation component 'Fire3' must be marked as Legacy.
-
-The AnimationClip 'Fire' used by the Animation component 'Fire3' must be marked as Legacy.
-
-The AnimationClip 'Fire' used by the Animation component 'Fire1' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
-The AnimationClip 'Fire' used by the Animation component 'Fire1' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
-The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
-The AnimationClip 'Fire' used by the Animation component 'Fire2' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
-The AnimationClip 'Fire' used by the Animation component 'Fire2' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
-The AnimationClip 'Fire' used by the Animation component 'Fire3' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
-The AnimationClip 'Fire' used by the Animation component 'Fire3' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
- -> (artifact id: '0c143cc9e4f11baeb989578578edde93') in 0.042726 seconds
-  Import took 0.049065 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/BossPrefeb/1-7.prefab
-  artifactKey: Guid(1eb0c888f5db7174a899bca113a5632a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BossPrefeb/1-7.prefab using Guid(1eb0c888f5db7174a899bca113a5632a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Fire' used by the Animation component 'Fire' must be marked as Legacy.
-
- -> (artifact id: '261cda4d21c52e221629fb13cfe36bcd') in 0.036727 seconds
-  Import took 0.043449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/BossPrefeb/3-3.prefab
-  artifactKey: Guid(f747debffe04d5d428619f5e517000e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BossPrefeb/3-3.prefab using Guid(f747debffe04d5d428619f5e517000e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
-
-The AnimationClip 'Fire' used by the Animation component 'Fire1' must be marked as Legacy.
-
-The AnimationClip 'Fire' used by the Animation component 'Fire3' must be marked as Legacy.
-
-The AnimationClip 'Fire' used by the Animation component 'Fire2' must be marked as Legacy.
-
-The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
-The AnimationClip 'Fire' used by the Animation component 'Fire1' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
-The AnimationClip 'Fire' used by the Animation component 'Fire3' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
-The AnimationClip 'Fire' used by the Animation component 'Fire2' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
- -> (artifact id: 'f9d171de9e3cd9ad001df33716ebf573') in 0.039309 seconds
-  Import took 0.045364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/BossPrefeb/2-7.prefab
-  artifactKey: Guid(8f71e0063a961a74899104237b1ec749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BossPrefeb/2-7.prefab using Guid(8f71e0063a961a74899104237b1ec749) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Fire' used by the Animation component 'Fire' must be marked as Legacy.
-
-The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
-
-The AnimationClip 'Fire' used by the Animation component 'Fire1' must be marked as Legacy.
-
-The AnimationClip 'Fire' used by the Animation component 'Fire2' must be marked as Legacy.
-
-The AnimationClip 'Fire' used by the Animation component 'Fire3' must be marked as Legacy.
-
-The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
-The AnimationClip 'Fire' used by the Animation component 'Fire1' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
-The AnimationClip 'Fire' used by the Animation component 'Fire2' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
-The AnimationClip 'Fire' used by the Animation component 'Fire3' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
- -> (artifact id: 'b792dd367203f6a9d29e90dc0c5ad74e') in 0.043786 seconds
-  Import took 0.049991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/BossPrefeb/2-6.prefab
-  artifactKey: Guid(505bd77f576db7a40be2f1335efeb8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BossPrefeb/2-6.prefab using Guid(505bd77f576db7a40be2f1335efeb8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Fire' used by the Animation component 'Fire' must be marked as Legacy.
-
-The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
-
-The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
- -> (artifact id: 'a4d98e5e33fe022a528873836d399bf8') in 0.045966 seconds
-  Import took 0.050932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/BossPrefeb/3-1.prefab
-  artifactKey: Guid(04233ed6d4564f144bd3485e14574b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BossPrefeb/3-1.prefab using Guid(04233ed6d4564f144bd3485e14574b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Fire' used by the Animation component 'Fire1' must be marked as Legacy.
-
-The AnimationClip 'Fire' used by the Animation component 'Fire1' must be marked as Legacy.
-
-The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
-
-The AnimationClip 'Fire' used by the Animation component 'Fire3' must be marked as Legacy.
-
-The AnimationClip 'Fire' used by the Animation component 'Fire3' must be marked as Legacy.
-
-The AnimationClip 'Fire' used by the Animation component 'Fire2' must be marked as Legacy.
-
-The AnimationClip 'Fire' used by the Animation component 'Fire2' must be marked as Legacy.
-
-The AnimationClip 'Fire' used by the Animation component 'Fire1' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
-The AnimationClip 'Fire' used by the Animation component 'Fire1' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
-The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
-The AnimationClip 'Fire' used by the Animation component 'Fire3' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
-The AnimationClip 'Fire' used by the Animation component 'Fire3' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
-The AnimationClip 'Fire' used by the Animation component 'Fire2' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
-The AnimationClip 'Fire' used by the Animation component 'Fire2' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
- -> (artifact id: 'bada67fb17bd4d6926b47cc53d784080') in 0.037953 seconds
-  Import took 0.045713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/BossPrefeb/3-7.prefab
-  artifactKey: Guid(bc95e9291ad143246b4a8e94f77035db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BossPrefeb/3-7.prefab using Guid(bc95e9291ad143246b4a8e94f77035db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
-
-The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
- -> (artifact id: '8b0504e14d99ae23d404ba1ffd6fa03c') in 0.036879 seconds
-  Import took 0.041993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
+  Time since last request: 0.000320 seconds.
   path: Assets/BossPrefeb/3-6.prefab
   artifactKey: Guid(44b21ec0937f80f49b4fd6d6afd32369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/BossPrefeb/3-6.prefab using Guid(44b21ec0937f80f49b4fd6d6afd32369) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Fire' used by the Animation component 'Fire1' must be marked as Legacy.
@@ -1064,181 +350,83 @@ UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityE
 
 [C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
 
- -> (artifact id: 'a1a17afc69397c4a26947eef14ea6d69') in 0.034793 seconds
-  Import took 0.041360 seconds .
+ -> (artifact id: '9b740b500ffe06757d3faa3007bbb469') in 0.023098 seconds
+  Import took 0.027153 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/BossPrefeb/1-3.prefab
-  artifactKey: Guid(9dbd3bb1473d42f4ea33372ff25eeb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BossPrefeb/1-3.prefab using Guid(9dbd3bb1473d42f4ea33372ff25eeb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
-
-The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
-
-The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
-The AnimationClip 'Elec' used by the Animation component 'Spark' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
-
- -> (artifact id: '8355ca42bd662bd841fbd51894ac786c') in 0.041234 seconds
-  Import took 0.046644 seconds .
+  Time since last request: 26.073630 seconds.
+  path: Assets/BossSprite
+  artifactKey: Guid(ccdff08439647a147a1af853bc064aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossSprite using Guid(ccdff08439647a147a1af853bc064aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced014fb3062d8fecdac714edc26a33a') in 0.002899 seconds
+  Import took 0.008114 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/BossPrefeb/2-5.prefab
-  artifactKey: Guid(6039ab6f9bc0f5c42b4a8e275f6f1fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BossPrefeb/2-5.prefab using Guid(6039ab6f9bc0f5c42b4a8e275f6f1fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3cb1955ac94b4c91119e1d911d2ac0') in 0.035384 seconds
-  Import took 0.041679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.020694 seconds.
-  path: Assets/Prefeb/FireBullet.prefab
-  artifactKey: Guid(c2e974d11d744c340a9c476b8b5dd998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefeb/FireBullet.prefab using Guid(c2e974d11d744c340a9c476b8b5dd998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e246fe5ebedcddbdf74a06880ca4194d') in 0.016184 seconds
-  Import took 0.021533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002260 seconds.
-  path: Assets/Prefeb/FireBullet.prefab
-  artifactKey: Guid(c2e974d11d744c340a9c476b8b5dd998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefeb/FireBullet.prefab using Guid(c2e974d11d744c340a9c476b8b5dd998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e246fe5ebedcddbdf74a06880ca4194d') in 0.018478 seconds
-  Import took 0.026059 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.871621 seconds.
-  path: Assets/Script/PistonObj.cs
-  artifactKey: Guid(d715008126072d84283b23aab5437e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/PistonObj.cs using Guid(d715008126072d84283b23aab5437e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30fa59186af2a3e18caf83ac11d32afc') in 0.004002 seconds
-  Import took 0.010237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003129 seconds.
-  path: Assets/Script/PistonObj.cs
-  artifactKey: Guid(d715008126072d84283b23aab5437e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/PistonObj.cs using Guid(d715008126072d84283b23aab5437e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30fa59186af2a3e18caf83ac11d32afc') in 0.004537 seconds
-  Import took 0.010583 seconds .
+  Time since last request: 16.938800 seconds.
+  path: Assets/BossSprite/KakaoTalk_20210809_123652178 1.gif
+  artifactKey: Guid(2d92c062cfc5163489b78d077494e26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossSprite/KakaoTalk_20210809_123652178 1.gif using Guid(2d92c062cfc5163489b78d077494e26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c327386df021d20afeee1c8744a2d10c') in 0.019105 seconds
+  Import took 0.024694 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013244 seconds.
+Registered in 0.007397 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.689 seconds
+- Completed reload, in  1.191 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.6 MB.
-System memory in use after: 85.7 MB.
+System memory in use before: 85.3 MB.
+System memory in use after: 85.4 MB.
 
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2473.
-Total: 8.580300 ms (FindLiveObjects: 0.268300 ms CreateObjectMapping: 0.057600 ms MarkObjects: 8.180500 ms  DeleteObjects: 0.071100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 153.270871 seconds.
-  path: Assets/Prefeb2/Elecstone.prefab
-  artifactKey: Guid(97b4400360d708e48a1734fa9ef5ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefeb2/Elecstone.prefab using Guid(97b4400360d708e48a1734fa9ef5ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da540aaa1e1927b61ec236d5f1137143') in 0.089769 seconds
-  Import took 0.096262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.509838 seconds.
-  path: Assets/Prefeb/Piston 1.prefab
-  artifactKey: Guid(1760a459134153b44bc98f1fca55c4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefeb/Piston 1.prefab using Guid(1760a459134153b44bc98f1fca55c4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d4120c101570cb605912775e4f5be5') in 0.019910 seconds
-  Import took 0.027522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Prefeb/Piston.prefab
-  artifactKey: Guid(7016ccdf1c43d6d48b88e157bff41f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefeb/Piston.prefab using Guid(7016ccdf1c43d6d48b88e157bff41f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d08a41f5ad168cf17eb6f01a11318e') in 0.023046 seconds
-  Import took 0.030197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/Prefeb/Piston 1.prefab
-  artifactKey: Guid(1760a459134153b44bc98f1fca55c4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefeb/Piston 1.prefab using Guid(1760a459134153b44bc98f1fca55c4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d4120c101570cb605912775e4f5be5') in 0.017483 seconds
-  Import took 0.024995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000702 seconds.
-  path: Assets/Prefeb/Piston.prefab
-  artifactKey: Guid(7016ccdf1c43d6d48b88e157bff41f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefeb/Piston.prefab using Guid(7016ccdf1c43d6d48b88e157bff41f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d08a41f5ad168cf17eb6f01a11318e') in 0.031987 seconds
-  Import took 0.039538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.103714 seconds.
-  path: Assets/Prefeb/Piston 1.prefab
-  artifactKey: Guid(1760a459134153b44bc98f1fca55c4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefeb/Piston 1.prefab using Guid(1760a459134153b44bc98f1fca55c4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872bb418e2f1845f5fb61af88365a099') in 0.018046 seconds
-  Import took 0.028335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.487338 seconds.
-  path: Assets/Prefeb/Piston 1.prefab
-  artifactKey: Guid(1760a459134153b44bc98f1fca55c4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefeb/Piston 1.prefab using Guid(1760a459134153b44bc98f1fca55c4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65bc0862e5c50463c29b2cccf1406595') in 0.019446 seconds
-  Import took 0.025379 seconds .
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2448.
+Total: 7.151000 ms (FindLiveObjects: 0.184300 ms CreateObjectMapping: 0.047400 ms MarkObjects: 6.846800 ms  DeleteObjects: 0.070600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.016109 seconds.
+Registered in 0.006267 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.462 seconds
+- Completed reload, in  2.322 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.6 MB.
-System memory in use after: 85.7 MB.
+System memory in use before: 85.3 MB.
+System memory in use after: 85.5 MB.
 
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2477.
-Total: 14.337600 ms (FindLiveObjects: 0.988300 ms CreateObjectMapping: 0.438800 ms MarkObjects: 12.804300 ms  DeleteObjects: 0.100100 ms)
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2451.
+Total: 16.463300 ms (FindLiveObjects: 1.837300 ms CreateObjectMapping: 0.781600 ms MarkObjects: 13.437800 ms  DeleteObjects: 0.393700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006360 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.299 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.3 MB.
+System memory in use after: 85.5 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2454.
+Total: 5.563500 ms (FindLiveObjects: 0.758800 ms CreateObjectMapping: 0.077700 ms MarkObjects: 4.687100 ms  DeleteObjects: 0.038400 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
