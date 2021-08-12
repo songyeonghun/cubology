@@ -23,12 +23,23 @@ public class WaterInIce : MonoBehaviour
 
             audioSource.Play();
             Destroy(gameObject);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 098f26584d77c867828d36bbc67fa91c0a08e45a
             Instantiate(ice,transform.position, Quaternion.identity);
         }
         else if(collision.gameObject.tag == "iceleaf")
         {
+<<<<<<< HEAD
             audioSource.Play();
             Destroy(gameObject);
+=======
+
+            audioSource.Play();
+            Destroy(gameObject);
+
+>>>>>>> 098f26584d77c867828d36bbc67fa91c0a08e45a
             Instantiate(ice, transform.position, Quaternion.identity);
         }
         else if (collision.gameObject.tag == "Poison")
