@@ -20,9 +20,9 @@ public class PoisonCanon : MonoBehaviour
         {
             timer += Time.deltaTime;
             if (timer >= delay)
-            { 
+            {
                 audioSource.Play();
-                var bullet = Instantiate(BulletPrefeb, BullletSpawn.transform.position, Quaternion.identity).GetComponent<Poison>();;
+                var bullet = Instantiate(BulletPrefeb, BullletSpawn.transform.position, Quaternion.identity).GetComponent<Poison>();
                 bullet.Fire(transform.right);
                 timer = 0f;
             }
